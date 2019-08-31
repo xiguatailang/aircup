@@ -78,7 +78,7 @@
 <div class="w_720 p_80">
     <p class="f_48">给我们留言</p>
     <p class="about_p1 mar m_t40">邮箱</p>
-    <input type="text" class="about_inp1 mar" placeholder="Aircup@cup.link">
+    <input type="text" class="about_inp1 mar" placeholder="Aircup@cup.link" onfocus="this.placeholder=''" onblur="this.placeholder='Aircup@cup.link'">
     <p class="about_p1 mar m_t20">给我们留言</p>
     <textarea name="" id="" cols="" rows="" class="about_inp2 mar"></textarea>
     <button class="about_inp3">发&nbsp;送</button>

@@ -25,8 +25,13 @@
     </a>
 </nav>
 <div class="buy_1 mar">
-    <p class="f_30 buy_2">产品预计10月发售，<br/>实际价格已发售通知为准。<br/>如要购买请填写表单，留下联系方式，<br/>我们会第一时间与您联系。<br/>首批购买者会有纪念礼物呦～</p>
+{{--    <p class="f_30 buy_2">产品预计10月发售，<br/>实际价格已发售通知为准。<br/>如要购买请填写表单，留下联系方式，<br/>我们会第一时间与您联系。<br/>首批购买者会有纪念礼物呦～</p>--}}
+    <p class="f_30 buy_2">产品即将发售，<br/>预计售价约2500-3000元，<br/>实际价格已发售通知为准。<br/>首批产品限量发售，先定先得。<br/>如要购买请填写表单，留下联系方式，<br/>我们会第一时间与您联系。<br/>首批购买者会有纪念礼物呦～</p>
     <p class="f_60 buy_3">预订信息</p>
+    <p style="text-align: center;font-size:0.18rem;color:#666666;position: relative;margin: -0.7rem 0 0.5rem 0">
+            <span style="font-size: 0.5rem;margin-top: -14px;
+            position: absolute;color: #d91e06;left: 2.9rem;">*</span>为必填项
+    </p>
     <div class="buy_4 mar">
         <p class="buy_5">1、您的姓名？<span>*</span></p>
         <input type="text" class="buy_6" id="name">

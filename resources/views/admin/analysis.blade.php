@@ -330,6 +330,7 @@
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                     <tr>
+                                        <th>#</th>
                                         <th>日期</th>
                                         <th>姓名</th>
                                         <th>性别</th>
@@ -343,8 +344,9 @@
                                     </thead>
                                     <tbody>
 
-                                    @foreach($orderList as $order)
+                                    @foreach($orderList as $key=>$order)
                                         <tr class="odd gradeX">
+                                            <td>{{$key+1}}</td>
                                             <td>{{ date('Y-m-d H:i', $order->created_at)}}</td>
                                             <td>{{$order->name}}</td>
                                             <td>{{$order->sex ? '女' : '男'}}</td>
@@ -391,7 +393,7 @@
 
                                     @foreach($feedbackList as $key=>$list)
                                         <tr class="odd gradeX">
-                                            <td>{{$key}}</td>
+                                            <td>{{$key + 1}}</td>
                                             <td>{{ date('Y-m-d H:i', $list->created_at)}}</td>
                                             <td>{{$list->email}}</td>
                                             <td>{{$list->content}}</td>
@@ -413,7 +415,7 @@
     </div>
     <!-- /. ROW  -->
 </div>
-<footer><p>Copyright &copy; 2019.空杯头显 All rights reserved</p></footer>
+{{--<footer><p>Copyright &copy; 2019.空杯头显 All rights reserved</p></footer>--}}
 </div>
 <!-- /. PAGE INNER  -->
 </div>
@@ -436,7 +438,7 @@
     });
 </script>
 <!-- Custom Js -->
-<script src="{{ URL::asset('/') }}js/plug/custom-scripts.js"></script>
+{{--<script src="{{ URL::asset('/') }}js/plug/custom-scripts.js"></script>--}}
 
 
 </body>

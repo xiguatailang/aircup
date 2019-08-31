@@ -78,17 +78,7 @@ class AirCupAdminController extends BaseController
             ->limit(200)
             ->get();
 
-        if($orderList){
-
-            foreach ($orderList as $order){
-
-                array_push($result ,$order);
-            }
-        }
-
-//        $result = array_reverse($result);
-
-        return view('admin.analysis' ,['orderList'=>$result ,'feedbackList'=>$feedbackList]);
+        return view('admin.analysis' ,['orderList'=>$orderList ,'feedbackList'=>$feedbackList]);
     }
 
 

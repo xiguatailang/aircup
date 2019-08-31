@@ -122,6 +122,8 @@
 <div class="w_720 p_80 bg_f7">
     <p class="f_60">2017年回顾</p>
     <p class="f_30 m_t20">这是凤凰涅槃的一年。<br/>从年初的AR盒子到春节前全功能原型机，<br/>初略的将智能眼镜跑了一遍。<br/>现在还与行业内的翘楚差距非常大，<br/>但既然倔强的走了这条路，就坚持走好。</p>
+
+    <a href="{{ url('/story2018') }}" class="index_2_p3 mar">了解更多故事</a>
 </div>
 <footer>
     <div class="footer_1">

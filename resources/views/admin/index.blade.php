@@ -594,9 +594,9 @@
             <!-- /. ROW  -->
 
 
-            <footer>
-                <p>thanks a lot</p>
-            </footer>
+{{--            <footer>--}}
+{{--                <p>thanks a lot</p>--}}
+{{--            </footer>--}}
         </div>
         <!-- /. PAGE INNER  -->
     </div>

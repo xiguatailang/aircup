@@ -69,12 +69,10 @@ class AirCupApiController extends BaseController
              'sex'=>0,
              'age'=>0,
              'email'=>0,
-             'wx_id'=>0,
-             'address'=>0,
-             'feedback'=>0,
          );
+
         foreach ($_POST as $key=>$val){
-            if(!isset($insertData[$key]) ||!$val){
+            if(isset($insertData[$key]) && !$val){
                 return array('status'=>500 ,'msg'=>'输入不可为空');
             }
             if($key=='email' && !filter_var($val ,FILTER_VALIDATE_EMAIL)){
@@ -87,6 +85,9 @@ class AirCupApiController extends BaseController
             $insertData[$key] = $val;
         }
 
+        $insertData['wx_id'] = isset($insertData['wx_id']) ? $insertData['wx_id'] : 0;
+        $insertData['address'] = isset($insertData['address']) ? $insertData['address'] : 0;
+        $insertData['feedback'] = isset($insertData['feedback']) ? $insertData['feedback'] : 0;
         $insertData['age'] = (int)$insertData['age'];
         $insertData['status'] = 0;
         $insertData['created_at'] = time();
