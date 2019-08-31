@@ -48,7 +48,12 @@ class AirCupApiController extends BaseController
 
 
              if($ret){
-                 return array('status'=>200 ,'url'=>url('/admin/dashboard'));
+                 $token = $email.'_login_success';
+                 $timeKey = time();
+
+                 session(['login_'.$timeKey =>md5($token)]);
+
+                 return response(array('status'=>200 ,'url'=>url('/admin/dashboard')))->cookie('token', $timeKey.'_'.md5($token), 6000);
              }
          }
 

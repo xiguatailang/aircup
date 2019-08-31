@@ -21,6 +21,8 @@ class AirCupWebController extends BaseController
         'buy'=>'buy',
         'story2017'=>'story2017',
         'story2018'=>'story2018',
+        'feedback'=>'feedback',
+        'buysuccess'=>'buysuccess',
     ];
 
     /**

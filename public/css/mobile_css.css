@@ -95,3 +95,4 @@ footer{width: 100%;height: 1.2rem;background: #313131;text-align: center}
 .buy_5 span{font-size: 0.5rem;position: absolute;color: #d91e06;}
 .buy_6{background: none;width: 100%;border-radius: 0;border:none;border-bottom: 1px #666666 solid;padding: 0.1rem;outline: none;font-size: 0.26rem;margin-top: 0.1rem;}
 .buy_7{font-size: 0.2rem;color: #FFFFFF;text-align: center;}
+.juzhong{position: absolute;top: 50%;left: 50%;margin: auto;transform: translate(-50%,-50%);text-align: center;width: 100%;}

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>造物记</title>
+    <title>关于我们</title>
     <link rel="stylesheet" href="{{ URL::asset('/') }}css/web_css.css" />
     <script src="{{ URL::asset('/') }}js/jquery.min.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0k9zbblGVozmyAZyKia0jF7o2LxhLCR5">
@@ -114,6 +114,14 @@
         </div>
     </div>
 </footer>
+
+<div class="bg">
+    <div class="bg_1">
+        <img src="{{ URL::asset('/') }}image/web/x.png" alt="" class="close">
+        <p class="f_36" style="padding-top:140px">感谢您的留言！</p>
+    </div>
+</div>
+
 </body>
 <script>
     $(document).ready(function () {
@@ -158,13 +166,22 @@
             },
             success: function (data) {
                 if(data.status==200) {
-                    alert("感谢您的宝贵留言")
+                    bg()
                 }else {
                     alert(data.msg)
                 }
             }
         })
     })
+
+    function bg(){
+        $(".bg").show();
+        $(".close").click(function(){
+            $(".bg").hide();
+            $("input").val("");
+            $("textarea").val("");
+        })
+    }
     setTimeout(function () {
         //地图
         var map = new BMap.Map("map");

@@ -66,24 +66,16 @@ class AirCupAdminController extends BaseController
     }
 
     public function showAnalysis(){
-//        $data = [
-//            'name'=>'liuwei',
-//            'sex'=>0,
-//            'age'=>23,
-//            'email'=>'504890176@qq.com',
-//            'wx_id'=>'snzhjzxq',
-//            'address'=>'天朝第一中学',
-//            'feedback'=>'完全不知代哦该说什么，怎么办阿？',
-//            'status'=>0,
-//            'created_at'=>time(),
-//        ];
-//
-//        DB::table('pre_order')->insert($data);
 
         $result = array();
         $orderList = DB::table('pre_order')
             ->latest('created_at')
-            ->limit(5)
+            ->limit(200)
+            ->get();
+
+        $feedbackList = DB::table('feedback')
+            ->latest('created_at')
+            ->limit(200)
             ->get();
 
         if($orderList){
@@ -96,7 +88,7 @@ class AirCupAdminController extends BaseController
 
 //        $result = array_reverse($result);
 
-        return view('admin.analysis' ,['orderList'=>$result]);
+        return view('admin.analysis' ,['orderList'=>$result ,'feedbackList'=>$feedbackList]);
     }
 
 

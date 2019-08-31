@@ -25,7 +25,12 @@
         <p class="buy_5">1、您的姓名？<span>*</span></p>
         <input type="text" class="buy_6" id="name">
         <p class="buy_5 m_t40">2、您的性别？<span>*</span></p>
-        <input type="text" class="buy_6" id="sex">
+        <div class="buy_6">
+            <input type="radio" name="sex" id="sex_man" checked="checked" value="男"
+                   style="margin-right:10px;vertical-align:middle;"><label for="sex_man">男</label>
+            <input type="radio" name="sex" id="sex_woman" value="女"
+                   style="margin-left: 20px;vertical-align:middle;margin-right: 10px"><label for="sex_woman">女</label>
+        </div>
         <p class="buy_5 m_t40">3、您的邮箱？<span>*</span></p>
         <input type="text" class="buy_6" id="mail">
         <p class="buy_5 m_t40">4、您的年龄？<span>*</span></p>
@@ -55,6 +60,13 @@
         </div>
     </div>
 </footer>
+<div class="bg">
+    <div class="bg_1">
+        <img src="{{ URL::asset('/') }}image/web/x.png" alt="" class="close">
+        <p class="f_36" style="padding-top:120px">恭喜您已预定成功</p>
+        <p style="color: #666666;font-size: 18px;padding-top: 10px">有进一步的信息我们会及时与您联系</p>
+    </div>
+</div>
 </body>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -82,7 +94,12 @@
     //发送留言
     $(".about_inp3").click(function () {
         var name = $("#name").val();
-        var sex = $("#sex").val();
+        var sex;
+        var item = $(":radio:checked");
+        var len = item.length;
+        if (len > 0) {
+            sex = $(":radio:checked").val()
+        }
         var mail = $("#mail").val();
         var age = $("#age").val();
         var wx = $("#wx").val();
@@ -116,13 +133,22 @@
             success: function (data) {
 
                 if(data.status==200) {
-                    alert("感谢您的预购")
+                    bg()
                 }else {
                     alert(data.msg)
                 }
             }
         })
     })
+
+    function bg(){
+        $(".bg").show();
+        $(".close").click(function(){
+            $(".bg").hide();
+            $("input").val("");
+            $("textarea").val("");
+        })
+    }
 </script>
 
 </html>

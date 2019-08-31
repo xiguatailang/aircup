@@ -30,8 +30,13 @@
     <div class="buy_4 mar">
         <p class="buy_5">1、您的姓名？<span>*</span></p>
         <input type="text" class="buy_6" id="name">
-        <p class="buy_5 m_t40">2、您的性别？<span>*</span></p>
-        <input type="text" class="buy_6" id="sex">
+        <p class="buy_5 m_t40">2、您的性别？<span>*</span>
+            <input type="radio" name="sex" id="sex_man" checked="checked" value="男"
+                   style="margin-left: 0.4rem;vertical-align:middle;margin-right:0.1rem ;"><label for="sex_man">男</label>
+            <input type="radio" name="sex" id="sex_woman" value="女"
+                   style="margin-left: 0.2rem;vertical-align:middle;margin-right:0.1rem ;"><label for="sex_woman">女</label>
+        </p>
+        <input type="text" class="buy_6" id="sex" readonly>
         <p class="buy_5 m_t40">3、您的邮箱？<span>*</span></p>
         <input type="text" class="buy_6" id="mail">
         <p class="buy_5 m_t40">4、您的年龄？<span>*</span></p>
@@ -83,7 +88,12 @@
     //发送留言
     $(".about_inp3").click(function () {
         var name = $("#name").val();
-        var sex = $("#sex").val();
+        var sex;
+        var item = $(":radio:checked");
+        var len = item.length;
+        if (len > 0) {
+            sex = $(":radio:checked").val()
+        }
         var mail = $("#mail").val();
         var age = $("#age").val();
         var wx = $("#wx").val();
@@ -116,7 +126,7 @@
             },
             success:function(data){
                 if(data.status==200) {
-                    alert("感谢您的预购")
+                    window.location.href = "{{ url('/buysuccess') }}";
                 }else {
                     alert(data.msg)
                 }

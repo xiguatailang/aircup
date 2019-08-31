@@ -135,7 +135,7 @@
             },
             success: function (data) {
                 if(data.status==200) {
-                    alert("感谢您的宝贵留言")
+                    window.location.href = "{{ url('/feedback') }}";
                 }else {
                     alert(data.msg)
                 }
