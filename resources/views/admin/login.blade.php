@@ -82,19 +82,38 @@
             var email = $('.user_email').val()
             var pd = $('.user_pd').val()
 
-            $.post("{{ url('/api/aircup/adminlogin') }}",
-                {
+            {{--$.post("{{ url('/api/aircup/adminlogin') }}",--}}
+            {{--    {--}}
+            {{--        email:email,--}}
+            {{--        pd:pd--}}
+            {{--    },--}}
+            {{--    function(data,status){--}}
+            {{--        if(data.status == 200){--}}
+            {{--            window.location.href = data.url;--}}
+            {{--        }else {--}}
+            {{--            alert('账号输入错误')--}}
+            {{--        }--}}
+            {{--    }--}}
+            {{--);--}}
+
+            $.ajax({
+                url:"{{ url('/api/aircup/adminlogin') }}",
+                type:'POST',
+                data: {
                     email:email,
                     pd:pd
                 },
-                function(data,status){
+                success: function (data) {
                     if(data.status == 200){
                         window.location.href = data.url;
                     }else {
                         alert('账号输入错误')
                     }
+                },
+                error:function (data) {
+                    alert(data)
                 }
-            );
+            })
         });
 
 

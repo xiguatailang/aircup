@@ -12,6 +12,17 @@
     <script src="{{ URL::asset('/') }}js/jquery.min.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0k9zbblGVozmyAZyKia0jF7o2LxhLCR5">
     </script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?e6e8e979116c873af381afaf9cb8daf1";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
 </head>
 
 <body style="background-color:#f7f7f7;">
@@ -93,7 +104,7 @@
     <div class="footer_2">
         <a href="" class="footer_2_1">隐私政策</a>
         <a href="" class="footer_2_1">服务条款</a>
-        <span class="footer_2_1">©2019 京ICP备15059201号-4</span>
+        <span class="footer_2_1">©2019 京ICP备19040913号</span>
     </div>
 </footer>
 </body>
