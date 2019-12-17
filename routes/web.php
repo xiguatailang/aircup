@@ -25,4 +25,6 @@ Route::get('/{path}', 'AirCupWebController@adapater');
 
 
 
+Route::get('/{path}/en', 'AirCupWebEnController@adapater');
+
 //404 remember
