@@ -26,7 +26,7 @@
 <nav>
     <div class="w_1200 ov">
         <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
-        <a href="{{ url('/buy') }}" class="right nav_a">预定购买</a>
+        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="right nav_a">预定购买</a>
         <a href="{{ url('/about') }}" class="right nav_a_s">关于我们</a>
         <a href="{{ url('/') }}" class="right nav_a">造物记</a>
     </div>
@@ -96,7 +96,7 @@
 </div>
 <div class="mar p_80">
     <p class="f_60">公司地址</p>
-    <p class="f_30 m_t20" style="color: #666666">北京市海淀区中关村鼎好大厦A座三层</p>
+    <p class="f_30 m_t20" style="color: #666666">北京市海淀区中关村8号东升大厦A座901</p>
     <!-- <img src="img/about_1.png" alt="" class="about_img1 m_t40"> -->
     <div class="map m_t40 mar" id="map"></div>
 </div>
@@ -117,7 +117,7 @@
         <div class="footer_1 left">
             <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
             <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-            <a href="{{ url('/buy') }}" class="footer_1_a footer_1_a1">预定购买</a>
+            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
         </div>
         <div class="footer_2 right">
             <a href="" class="footer_2_1">隐私政策</a>
@@ -198,7 +198,7 @@
         //地图
         var map = new BMap.Map("map");
         // 创建地图实例
-        var point = new BMap.Point(116.321146, 39.989646);
+        var point = new BMap.Point(116.340121,39.999639);
         // 创建点坐标
         map.centerAndZoom(point, 17);
         var marker = new BMap.Marker(point); // 创建标注

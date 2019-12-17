@@ -31,14 +31,14 @@
     <a href="{{ url('/') }}">
         <img src="{{ URL::asset('/') }}image/mobile_nav_2.png" alt="" class="nav_2" />
     </a>
-    <a href="{{ url('/buy') }}">
+    <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank">
         <img src="{{ URL::asset('/') }}image/mobile_nav_3.png" alt="" class="nav_3" />
     </a>
 </nav>
 <div class="index_1">
     <p class="index_1_1">一个新时代,即将开启</p>
     <p class="index_1_2">能放进上衣口袋的智能眼镜来了</p>
-    <a href="{{ url('/buy') }}" class="index_1_3 mar">预订购买</a>
+    <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="index_1_3 mar">预订购买</a>
     <p class="index_1_4">很多人问我<br/>你为什么做智能眼镜<br/>“参与创造未来<br/>让生命更有意义”</p>
     <p class="index_1_4 index_1_5">然而<br/>我却在质疑声中出发<br/>直到今天也从未停止</p>
     <p class="index_1_6">你不会算法，没有供应链资源，你凭什么<br/><br/>这种项目都是MIT、斯坦福的人才能做<br/><br/> 我是科大少年班毕业，又在研究所工作，<br/>我都不敢做<br/><br/>你不知道做硬件有多难</p>
@@ -64,7 +64,7 @@
     <div class="footer_1">
         <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
         <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-        <a href="{{ url('/buy') }}" class="footer_1_a footer_1_a1">预定购买</a>
+        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
     </div>
     <div class="footer_2">
         <a href="" class="footer_2_1">隐私政策</a>

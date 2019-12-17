@@ -31,7 +31,7 @@
     <a href="{{ url('/') }}">
         <img src="{{ URL::asset('/') }}image/mobile_nav_2.png" alt="" class="nav_2" />
     </a>
-    <a href="{{ url('/buy') }}">
+    <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank">
         <img src="{{ URL::asset('/') }}image/mobile_nav_3.png" alt="" class="nav_3" />
     </a>
 </nav>
@@ -140,7 +140,7 @@
     <div class="footer_1">
         <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
         <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-        <a href="{{ url('/buy') }}" class="footer_1_a footer_1_a1">预定购买</a>
+        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
     </div>
     <div class="footer_2">
         <a href="" class="footer_2_1">隐私政策</a>

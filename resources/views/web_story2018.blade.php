@@ -24,7 +24,7 @@
 <nav>
     <div class="w_1200 ov">
         <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
-        <a href="{{ url('/buy') }}" class="right nav_a">预定购买</a>
+        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="right nav_a">预定购买</a>
         <a href="{{ url('/about') }}" class="right nav_a">关于我们</a>
         <a href="{{ url('/') }}" class="right nav_a_s">造物记</a>
     </div>
@@ -135,7 +135,7 @@
         <div class="footer_1 left">
             <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
             <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-            <a href="{{ url('/buy') }}" class="footer_1_a footer_1_a1">预定购买</a>
+            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
         </div>
         <div class="footer_2 right">
             <a href="" class="footer_2_1">隐私政策</a>

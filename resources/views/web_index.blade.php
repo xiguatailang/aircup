@@ -25,7 +25,7 @@
     <nav>
         <div class="w_1200 ov">
             <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
-            <a href="{{ url('/buy') }}" class="right nav_a">预定购买</a>
+            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="right nav_a">预定购买</a>
             <a href="{{ url('/about') }}" class="right nav_a">关于我们</a>
             <a href="{{ url('/') }}" class="right nav_a_s">造物记</a>
         </div>
@@ -33,7 +33,7 @@
     <div class="w_1200">
         <p class="f_72" style="padding-top:350px">一个新时代,即将开启</p>
         <p class="f_30 p_t40">能放进上衣口袋的智能眼镜来了</p>
-        <a href="{{ url('/buy') }}" class="index_a1 mar">预定购买</a>
+        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="index_a1 mar">预定购买</a>
         <p class="f_70 c_f" style="padding-top:690px;">很多人问我，你为什么做智能眼镜<br />“参与创造未来，让生命更有意义”</p>
         <p class="f_70 c_f" style="padding-top:560px;">然而，我却在质疑声中出发，<br />直到今天也从未停止</p>
         <p class="f_36 c_f" style="padding-top:100px;">
@@ -64,7 +64,7 @@
         <div class="footer_1 left">
             <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
             <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-            <a href="{{ url('/buy') }}" class="footer_1_a footer_1_a1">预定购买</a>
+            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
         </div>
         <div class="footer_2 right">
             <a href="" class="footer_2_1">隐私政策</a>
