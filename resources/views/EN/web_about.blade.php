@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>About Us</title>
+    <title>About us</title>
     <link rel="stylesheet" href="{{ URL::asset('/') }}css/web_css.css" />
     <link rel="icon" type="image/x-icon" href="{{ URL::asset('/') }}image/web/logo_h.png"/>
     <script src="{{ URL::asset('/') }}js/jquery.min.js"></script>
@@ -27,7 +27,7 @@
     <div class="w_1200 ov">
         <a href="{{ url('/home/en') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
         <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-        <a href="{{ url('/about/en') }}" class="right nav_a_s">About Us</a>
+        <a href="{{ url('/about/en') }}" class="right nav_a_s">About us</a>
         <a href="{{ url('/home/en') }}" class="right nav_a">The Creation</a>
     </div>
 </nav>
@@ -116,12 +116,12 @@
     <div class="w_1200 mar ov">
         <div class="footer_1 left">
             <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-            <a href="{{ url('/about/en') }}" class="footer_1_a">About Us</a>
-            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
+            <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
+            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
         </div>
         <div class="footer_2 right">
-            <a href="" class="footer_2_1">隐私政策</a>
-            <a href="" class="footer_2_1">服务条款</a>
+            <a href="" class="footer_2_1">Privacy policy</a>
+            <a href="" class="footer_2_1">Terms of Service</a>
             <span class="footer_2_1">©2019 京ICP备19040913号</span>
         </div>
     </div>

@@ -26,7 +26,7 @@
         <div class="w_1200 ov">
             <a href="{{ url('/home/en') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
             <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-            <a href="{{ url('/about/en') }}" class="right nav_a">About Us</a>
+            <a href="{{ url('/about/en') }}" class="right nav_a">About us</a>
             <a href="{{ url('/home/en') }}" class="right nav_a_s">The Creation</a>
         </div>
     </nav>
@@ -34,8 +34,8 @@
         <p class="f_72" style="padding-top:350px">A new era is coming soon</p>
         <p class="f_30 p_t40">Smart glasses that can be put into your pockets are here</p>
 
-        <p class="f_70 c_f" style="padding-top:690px;">Many people ask me why I choose Smart Glasses.<br />“To create the future, and to give life more meaning”</p>
-        <p class="f_70 c_f" style="padding-top:560px;">I started with voices of doubts that has not yet stopped</p>
+        <p class="f_70 c_f" style="padding-top:690px;">Many people ask me why I choose smart glasses.<br />“To create the future, and to give life more meaning”</p>
+        <p class="f_70 c_f" style="padding-top:560px;">I started with voices of doubts that have not yet stopped</p>
         <p class="f_36 c_f" style="padding-top:100px;">
             You don’t know algorithms. You have no supply chains. How dare you?<br /><br />Such project is for MTI or Stanford geniuses.<br /><br />I graduated from Special Class for the Gifted Young in University of Science and Technology of China, and now work in a research institute, but I dare not do it.<br /><br />You know nothing about the difficulties in developing hardware.
         </p>
@@ -51,7 +51,7 @@
     </div>
     <div class="index_4 right">
         <p class="index_2_p1">In 2018, I march forward in exploration.</p>
-        <p class="index_2_p2">I always believe the future is better.<br />Even though it is no ideal,<br />We should still keep trying.</p>
+        <p class="index_2_p2">I always believe the future is better.<br />Even though it is no ideal,<br />we should still keep trying.</p>
         <a href="{{ url('/story2018/en') }}" class="index_2_p3 mar">To know more stories.</a>
     </div>
 </div>
@@ -63,12 +63,12 @@
     <div class="w_1200 mar ov">
         <div class="footer_1 left">
             <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-            <a href="{{ url('/about/en') }}" class="footer_1_a">About Us</a>
+            <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
             <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
         </div>
         <div class="footer_2 right">
-            <a href="" class="footer_2_1">隐私政策</a>
-            <a href="" class="footer_2_1">服务条款</a>
+            <a href="" class="footer_2_1">Privacy policy</a>
+            <a href="" class="footer_2_1">Terms of Service</a>
             <span class="footer_2_1">©2019 京ICP备19040913号</span>
         </div>
     </div>

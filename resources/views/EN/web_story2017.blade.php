@@ -25,7 +25,7 @@
     <div class="w_1200 ov">
         <a href="{{ url('/home/en') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
         <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-        <a href="{{ url('/about/en') }}" class="right nav_a">About Us</a>
+        <a href="{{ url('/about/en') }}" class="right nav_a">About us</a>
         <a href="{{ url('/home/en') }}" class="right nav_a_s">The Creation</a>
     </div>
 </nav>
@@ -58,14 +58,14 @@
     <img src="{{ URL::asset('/') }}image/web/story_17_3.png" alt="" class="story_17_3 mar m_t40">
 </div>
 <div class="mar p_80">
-    <p class="f_48">The principle of projecting image in air is from studying HoloKit</p>
+    <p class="f_48">The principle of projecting images in air is learnt from HoloKit</p>
     <p class="f_24 m_t20">
         Back then, smart glasses were not as many as today, so there were few actual products to study. Besides, I was a beginner and found most books had no clear explanation about the principle of projecting images, so I could not follow the principle in practice. <br /> But luckily, I got one Holokit in an activity hold by NetEase. <br />I studied it and learnt its principle of projecting images.
     </p>
     <img src="{{ URL::asset('/') }}image/web/story_17_4.png" alt="" class="story_17_4 mar m_t40">
 </div>
 <div class="mar p_80 bg_f7">
-    <p class="f_48">Imitating Holokit’s design to create my own AR box, but went through countless failures</p>
+    <p class="f_48">Imitating HoloKit’s design to create my own AR box, but went through countless failures</p>
     <p class="f_24 m_t20">Later I began to design AR box, and bought various AR lenses and Fresnel lenses.<br />Design-Proof-Failure, I tried dozens of times but achieved no progress.</p>
     <img src="{{ URL::asset('/') }}image/web/story_17_5.png" alt="" class="story_17_5 mar m_t40">
     <p class="bz">AR box: an optical system that wears on head with embedded mobile phone as light source.</p>
@@ -83,7 +83,7 @@
 </div>
 <div class="mar p_80 bg_f7">
     <p class="f_48">I got the screen, and problems stalked behind.</p>
-    <p class="f_24 m_t20">I was not familiar with electronic components at first, but there is no other way other than march forward.<br />When I got the screen, I encountered some problems. I contacted the agent, and ruled out problems one by one. I fixed it in the end.</p>
+    <p class="f_24 m_t20">I was not familiar with electronic components at first, but there was no other way other than marched forward.<br />When I got the screen, I encountered some problems. I contacted the agent, and ruled out problems one by one. I fixed it in the end.</p>
     <img src="{{ URL::asset('/') }}image/web/story_17_7.png" alt="" class="story_17_7 mar m_t40">
 </div>
 <div class="mar p_80">
@@ -94,7 +94,7 @@
 </div>
 <div class="story_b mar">
     <p class="story_b_p1" style="padding-top:360px;">We need a portable computer</p>
-    <p class="story_b_p2">We got rid of phone and used the screen as light source,<br />but screen relied on data and electricity from PC. It was immovable.</p>
+    <p class="story_b_p2">We got rid of phone and used the screen as light source,<br />but screen relied on data and electricity from immovable PC.</p>
 </div>
 <div class="mar p_80 bg_f7">
     <p class="f_48">Then, let’s build a host.</p>
@@ -138,20 +138,20 @@
 <div class="mar p_80 bg_f7">
     <p class="f_48">2017 Year in Review</p>
     <p class="f_24 m_t20">
-        It is a year of transformation. From an AR box at the beginning of 2017 to a full function prototype at the end, <br />we experienced the whole procedure of designing smart glasses. <br />We know we still lag behind industrial leaders, but we are determined to persist our choice and continue our road.</p>
+        It is a year of transformation. From an AR box at the beginning of 2017 to a full function prototype at the end, <br />we experienced the whole procedure of designing smart glasses. <br />We know we still lag behind industrial leaders, but we are determined to persist with our choice and continue our road.</p>
 
-    <a href="{{ url('/story2018') }}" class="index_2_p3 mar">Learn more stories</a>
+    <a href="{{ url('/story2018/en') }}" class="index_2_p3 mar">Learn more stories</a>
 </div>
 <footer>
     <div class="w_1200 mar ov">
         <div class="footer_1 left">
             <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-            <a href="{{ url('/about/en') }}" class="footer_1_a">About Us</a>
+            <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
             <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
         </div>
         <div class="footer_2 right">
-            <a href="" class="footer_2_1">隐私政策</a>
-            <a href="" class="footer_2_1">服务条款</a>
+            <a href="" class="footer_2_1">Privacy policy</a>
+            <a href="" class="footer_2_1">Terms of Service</a>
             <span class="footer_2_1">©2019 京ICP备19040913号</span>
         </div>
     </div>

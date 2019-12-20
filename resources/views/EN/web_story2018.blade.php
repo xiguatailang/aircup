@@ -25,7 +25,7 @@
     <div class="w_1200 ov">
         <a href="{{ url('/home/en') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
         <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-        <a href="{{ url('/about/en') }}" class="right nav_a">About Us</a>
+        <a href="{{ url('/about/en') }}" class="right nav_a">About us</a>
         <a href="{{ url('/home/en') }}" class="right nav_a_s">The Creation</a>
     </div>
 </nav>
@@ -34,17 +34,17 @@
     <p class="f_30 m_t20">I always believe the future is better. Even though it is no ideal, <br />we should still keep trying.</p>
 </div>
 <div class="mar p_80 bg_f7">
-    <p class="f_24 m_t20">So many unknow needed to be explored. The prototype was far from ideal.<br />we had to control cost and work even harder.</p>
+    <p class="f_24 m_t20">So many unknow needed to be explored. The prototype was far from ideal.<br />We had to control cost and work even harder.</p>
 </div>
 <div class="mar p_80">
     <p class="f_48">To save the rent, I moved our office to my house.</p>
-    <p class="f_24 m_t20">At the beginning of 2018, our lease contract with Chuang’ke Incubator run out. I moved our office to my house, <br />so we can save near 1,000 yuan per month.</p>
+    <p class="f_24 m_t20">At the beginning of 2018, our lease contract with Chuang’ke Incubator run out. I moved our office to my house, <br />so we could save near 1,000 yuan per month.</p>
     <img src="{{ URL::asset('/') }}image/web/story_18_2.png" alt="" class="story_18_2 mar m_t40">
 </div>
 <div class="mar p_80 bg_f7">
     <p class="f_48">Around the Spring Festival, we launched the R & D for the second prototype.</p>
     <p class="f_24 m_t20">
-        We had a new optical scheme. The key to minimizing the size was to find an appropriate screen.<br />I found one 2.6-inch AUO screen, but I could buy a sample. That screen was rarely sold in China. <br />I was nobody, and didn’t need a large quantity of it, so agents were not cooperative.<br />Agent’s cooperation was important for making hardware.
+        We had a new optical scheme. The key to minimizing the size was to find an appropriate screen.<br />I found one 2.6-inch AUO screen, but I could not buy a sample. That screen was rarely sold in China. <br />I was nobody, and didn’t need a large quantity of it, so agents were not cooperative.<br />Agent’s cooperation was important for making hardware.
     </p>
     <img src="{{ URL::asset('/') }}image/web/story_18_3.png" alt="" class="story_18_3 mar m_t40">
 </div>
@@ -92,9 +92,9 @@
     <img src="{{ URL::asset('/') }}image/web/story_18_9.png" alt="" class="story_18_9 mar m_t40">
 </div>
 <div class="mar p_80">
-    <p class="f_48">Lucky found us, and we rented a big apartment with 900 yuan</p>
+    <p class="f_48">Luck found us, and we rented a big apartment with 900 yuan</p>
     <p class="f_24 m_t20">
-        When we looked for another office, we happened to meet someone who wanted to rent out his apartment. We rent it with only 900 yuan. <br />There was another company in the apartment, but they barely showed up. We rent a well-decorated apartment of 100 square meters with little money. <br />It was unbelievable. God helps those who help themselves.
+        When we looked for another office, we happened to meet someone who wanted to rent out his apartment. We rented it with only 900 yuan. <br />There was another company in the apartment, but they barely showed up. We rented a well-decorated apartment of 100 square meters with little money. <br />It was unbelievable. God helps those who help themselves.
     </p>
     <img src="{{ URL::asset('/') }}image/web/story_18_10.png" alt="" class="story_18_10 mar m_t40">
 </div>
@@ -120,24 +120,24 @@
 </div>
 <div class="mar p_80">
     <p class="f_48">Then end of 2018, a picture of main members.</p>
-    <p class="f_24 m_t20">Two years, I started alone but had a team now. Delights and hardships were behind each photo. <br />We persist because we believe; we see because we persist.</p>
+    <p class="f_24 m_t20">Two years ago, I started alone, but I have a team now. Delights and hardships were behind each photo. <br />We persist because we believe; we see because we persist.</p>
     <img src="{{ URL::asset('/') }}image/web/story_18_13.png" alt="" class="story_18_13 mar m_t40">
 </div>
 <div class="mar p_80 bg_f7">
-    <p class="f_48">2108Year in Review</p>
+    <p class="f_48">2108 Year in Review</p>
     <p class="f_24 m_t20">
-        It had been two years now. Some joined the team and some left. We survived tough situations, failures in competitions,<br />nd problems in R & D. My determination was never wavered, but grow stronger as time went by. <br />If one has no light in his heart, the darkness will be pervasive.</p>
+        It had been two years now. Some joined the team and some left. We survived tough situations, failures in competitions,<br />and problems in R & D. My determination was never wavered, but grow stronger as time went by. <br />If one has no light in his heart, the darkness will be pervasive.</p>
 </div>
 <footer>
     <div class="w_1200 mar ov">
         <div class="footer_1 left">
             <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-            <a href="{{ url('/about/en') }}" class="footer_1_a">About Us</a>
+            <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
             <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
         </div>
         <div class="footer_2 right">
-            <a href="" class="footer_2_1">隐私政策</a>
-            <a href="" class="footer_2_1">服务条款</a>
+            <a href="" class="footer_2_1">Privacy policy</a>
+            <a href="" class="footer_2_1">Terms of Service</a>
             <span class="footer_2_1">©2019 京ICP备19040913号</span>
         </div>
     </div>
