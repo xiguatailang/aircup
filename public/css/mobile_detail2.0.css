@@ -51,6 +51,8 @@ textarea {  -webkit-appearance: none;}
 .tx{float: left;width: 1.25rem;margin-top: 0.4rem;}
 .bg{width: 100%;height: 100%;top: 0;left: 0;background: rgba(0, 0, 0, 0.7);position: fixed;z-index: 999;}
 .bg video{width: 100%;margin: 100px auto;outline: none;}
+.video{width: 100%;margin: 100px auto;position: relative;}
+.x{position: absolute;top: -0.6rem;right: 0.2rem;;width: 0.4rem;cursor: pointer;}
 .none{display: none;}
 
 .privacy_p1{font-size: 0.24rem;margin-top: 0.3rem;line-height: 0.42rem;padding: 0 0.3rem;}

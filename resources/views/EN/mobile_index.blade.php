@@ -271,11 +271,15 @@
 @include('/common/mobile_footer_en')
 
 <div class="bg none">
-    <video src="{{ URL::asset('/') }}video/video_main.mp4" controls="controls" id="v1" class="none"></video>
-    <video src="{{ URL::asset('/') }}video/video_comfort.mp4" controls="controls" id="v2" class="none"></video>
-    <video src="{{ URL::asset('/') }}video/video_charge.mp4" controls="controls" id="v3" class="none"></video>
-    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v4" class="none"></video>
+    <div class="video">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/x_mobile.png" alt="" class="x">
+        <video src="{{ URL::asset('/') }}video/video_main.mp4" controls="controls" id="v1" class="none"></video>
+        <video src="{{ URL::asset('/') }}video/video_comfort.mp4" controls="controls" id="v2" class="none"></video>
+        <video src="{{ URL::asset('/') }}video/video_charge.mp4" controls="controls" id="v3" class="none"></video>
+        <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v4" class="none"></video>
+    </div>
 </div>
+
 </body>
 <script type="text/javascript">
     (function (doc, win) {
@@ -319,18 +323,30 @@
         }
     }
 
-    function play(a) {
+    function play(a){
         $(".bg").show();
-        if (a == 1) {
-            $("#v1").css("display", "block")
-        } else if (a == 2) {
-            $("#v2").css("display", "block")
-        } else if (a == 3) {
-            $("#v3").css("display", "block")
-        } else if (a == 4) {
-            $("#v4").css("display", "block")
+        if(a==1){
+            $("#v1").attr("src","{{ URL::asset('/') }}video/video_main.mp4")
+            $("#v1").css("display","block")
+        }else if(a==2){
+            $("#v2").attr("src","{{ URL::asset('/') }}video/video_comfort.mp4")
+            $("#v2").css("display","block")
+        }else if(a==3){
+            $("#v3").attr("src","{{ URL::asset('/') }}video/video_charge.mp4")
+            $("#v3").css("display","block")
+        }else if(a==4){
+            $("#v4").attr("src","{{ URL::asset('/') }}video/video_1.mp4")
+            $("#v4").css("display","block")
         }
     }
+
+    $(".x").click(function () {
+        $(".bg").hide();
+        $("video").attr("src","")
+        $("video").css("display","none")
+
+    })
+
     $(".bg").click(function () {
         $(this).hide();
         $("video").css("display", "none")

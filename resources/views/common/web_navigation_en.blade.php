@@ -7,9 +7,9 @@
         <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
         <span class="right nav_a" onclick="lan()">中&nbsp;/&nbsp;EN</span>
         <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-        <a href="{{ url('/about') }}" class="right nav_a">About us</a>
-        <a href="{{ url('/creation') }}" class="right nav_a">The Creation</a>
-        <a href="{{ url('/') }}" class="right nav_a_s">HOME</a>
+        <a href="{{ url('/about') }}" class="right nav_a tg_about">About us</a>
+        <a href="{{ url('/creation') }}" class="right nav_a tg_creation">The Creation</a>
+        <a href="{{ url('/') }}" class="right nav_a tg_home">HOME</a>
     </div>
 </nav>
 
@@ -24,4 +24,19 @@
         }
         window.location.reload();
     }
+
+    $(function(){
+        var pathname = window.location.pathname;
+        // console.log(pathname)
+        if(pathname=="/"){
+            $("nav div a").removeClass("nav_a_s");
+            $(".tg_home").addClass("nav_a_s")
+        }else if(pathname=="/creation"){
+            $("nav div a").removeClass("nav_a_s");
+            $(".tg_creation").addClass("nav_a_s")
+        }else if(pathname=="/about"){
+            $("nav div a").removeClass("nav_a_s");
+            $(".tg_about").addClass("nav_a_s")
+        }
+    })
 </script>
