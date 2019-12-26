@@ -309,9 +309,9 @@
 @include('/common/web_footer_cn')
 
 <div class="bg none">
-    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v1" class="none"></video>
-    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v2" class="none"></video>
-    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v3" class="none"></video>
+    <video src="{{ URL::asset('/') }}video/video_main.mp4" controls="controls" id="v1" class="none"></video>
+    <video src="{{ URL::asset('/') }}video/video_comfort.mp4" controls="controls" id="v2" class="none"></video>
+    <video src="{{ URL::asset('/') }}video/video_charge.mp4" controls="controls" id="v3" class="none"></video>
     <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v4" class="none"></video>
 </div>
 
