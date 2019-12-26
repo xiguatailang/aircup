@@ -18,13 +18,11 @@
 //all web routes come to here
 Route::get('/', 'AirCupWebController@showIndex');
 
-//Route::get('/admin/{path}', 'AirCupAdminController@adapater');
+
 Route::middleware('aircupLogin')->get('/admin/{path}', 'AirCupAdminController@adapater');
 
 Route::get('/{path}', 'AirCupWebController@adapater');
 
 
-
-Route::get('/{path}/en', 'AirCupWebEnController@adapater');
 
 //404 remember

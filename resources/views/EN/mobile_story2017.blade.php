@@ -24,17 +24,9 @@
 </head>
 
 <body>
-<nav>
-    <a href="{{ url('/about/en') }}">
-        <img src="{{ URL::asset('/') }}image/mobile_nav_1.png" alt="" class="nav_1" />
-    </a>
-    <a href="{{ url('/home/en') }}">
-        <img src="{{ URL::asset('/') }}image/mobile_nav_2.png" alt="" class="nav_2" />
-    </a>
-    <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank">
-        <img src="{{ URL::asset('/') }}image/mobile_nav_3.png" alt="" class="nav_3" />
-    </a>
-</nav>
+
+@include('../common/mobile_navigation_en')
+
 <div class="story_1 mar">
     <p class="story_1_1 f_60">In 2017, I began the journey alone.</p>
     <p class="f_30 m_t20">Those who doubt me predict my end with their limited experience.<br/>But my persistence comes from the enjoyment of creation.<br/>I enjoy it every day.</p>
@@ -136,18 +128,9 @@
 
     <a href="{{ url('/story2018/en') }}" class="index_2_p3 mar">Learn more stories</a>
 </div>
-<footer>
-    <div class="footer_1">
-        <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-        <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
-        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
-    </div>
-    <div class="footer_2">
-        <a href="" class="footer_2_1">Privacy policy</a>
-        <a href="" class="footer_2_1">Terms of Service</a>
-        <span class="footer_2_1">©2019 京ICP备19040913号</span>
-    </div>
-</footer>
+
+@include('/common/mobile_footer_en')
+
 </body>
 <script type="text/javascript">
     (function (doc, win) {

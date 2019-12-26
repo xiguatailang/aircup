@@ -14,15 +14,20 @@ class AirCupWebController extends BaseController
 
     private $is_mobile = 1;
     private $is_web = 0;
+    const ENGLISH = 'en';
+    const CHINESE = 'cn';
 
     private $about_blade = 'about';
     public static $VALID_PATH = [           //key=>path,  value=>balde_name
+        'creation'=>'creation',
         'about'=>'about',
         'buy'=>'buy',
         'story2017'=>'story2017',
         'story2018'=>'story2018',
         'feedback'=>'feedback',
         'buysuccess'=>'buysuccess',
+        'privacy'=>'privacy',
+        'service'=>'service',
     ];
 
     /**
@@ -39,9 +44,26 @@ class AirCupWebController extends BaseController
         return view('web_'.$bladeName);
     }
 
+    /**
+     * @param $client
+     * @param $bladeName
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function useEnBlade($client ,$bladeName){
+
+        if($client == $this->is_mobile){
+            return view('EN/mobile_'.$bladeName);
+        }
+
+        return view('EN/web_'.$bladeName);
+    }
+
     public function showIndex(){
 
         $client = $this->getClient();
+        if(isset($_COOKIE['language']) && $_COOKIE['language']==self::ENGLISH){
+            return $this->useEnBlade($client ,'index');
+        }
 
         return $this->useBlade($client ,'index');
     }
@@ -54,6 +76,10 @@ class AirCupWebController extends BaseController
 
          if(key_exists($path ,self::$VALID_PATH)){
              $client = $this->getClient();
+
+             if(isset($_COOKIE['language']) && $_COOKIE['language']==self::ENGLISH){
+                 return $this->useEnBlade($client ,self::$VALID_PATH[$path]);
+             }
 
              return $this->useBlade($client ,self::$VALID_PATH[$path]);
          }

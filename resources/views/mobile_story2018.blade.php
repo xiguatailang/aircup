@@ -24,17 +24,10 @@
 </head>
 
 <body>
-<nav>
-    <a href="{{ url('/about') }}">
-        <img src="{{ URL::asset('/') }}image/mobile_nav_1.png" alt="" class="nav_1" />
-    </a>
-    <a href="{{ url('/') }}">
-        <img src="{{ URL::asset('/') }}image/mobile_nav_2.png" alt="" class="nav_2" />
-    </a>
-    <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank">
-        <img src="{{ URL::asset('/') }}image/mobile_nav_3.png" alt="" class="nav_3" />
-    </a>
-</nav>
+
+@include('/common/mobile_navigation_cn')
+
+
 <div class="story_2 mar">
     <p class="story_1_1 f_60">2018年,探索中前行</p>
     <p class="f_30 m_t20">永远相信未来会更美好 ,即使未来不理想<br/>我们也不应放弃努力</p>
@@ -116,18 +109,9 @@
     <p class="f_60">2018年回顾</p>
     <p class="f_30 m_t20">走了两年，团队中有人加入，有人退出；<br/>艰苦的环境，赛场的失利，研发中的各种难题，<br/>这些都未使我的内心动摇，反而更加坚强<br/>人的内心若失去光明，黑暗何等之大</p>
 </div>
-<footer>
-    <div class="footer_1">
-        <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
-        <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
-    </div>
-    <div class="footer_2">
-        <a href="" class="footer_2_1">隐私政策</a>
-        <a href="" class="footer_2_1">服务条款</a>
-        <span class="footer_2_1">©2019 京ICP备19040913号</span>
-    </div>
-</footer>
+
+@include('/common/mobile_footer_cn')
+
 </body>
 <script type="text/javascript">
     (function (doc, win) {

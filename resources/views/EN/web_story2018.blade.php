@@ -21,14 +21,9 @@
 </head>
 
 <body>
-<nav>
-    <div class="w_1200 ov">
-        <a href="{{ url('/home/en') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
-        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-        <a href="{{ url('/about/en') }}" class="right nav_a">About us</a>
-        <a href="{{ url('/home/en') }}" class="right nav_a_s">The Creation</a>
-    </div>
-</nav>
+
+@include('../common/web_navigation_en')
+
 <div class="story_2 mar">
     <p class="story_1_1 f_72">In 2018, I march forward in exploration.</p>
     <p class="f_30 m_t20">I always believe the future is better. Even though it is no ideal, <br />we should still keep trying.</p>
@@ -128,20 +123,9 @@
     <p class="f_24 m_t20">
         It had been two years now. Some joined the team and some left. We survived tough situations, failures in competitions,<br />and problems in R & D. My determination was never wavered, but grow stronger as time went by. <br />If one has no light in his heart, the darkness will be pervasive.</p>
 </div>
-<footer>
-    <div class="w_1200 mar ov">
-        <div class="footer_1 left">
-            <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-            <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
-            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
-        </div>
-        <div class="footer_2 right">
-            <a href="" class="footer_2_1">Privacy policy</a>
-            <a href="" class="footer_2_1">Terms of Service</a>
-            <span class="footer_2_1">©2019 京ICP备19040913号</span>
-        </div>
-    </div>
-</footer>
+
+@include('/common/web_footer_en')
+
 </body>
 <script>
     $(document).ready(function () {

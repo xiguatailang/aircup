@@ -3,100 +3,400 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>The Creation</title>
-    <link rel="stylesheet" href="{{ URL::asset('/') }}css/web_css.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ URL::asset('/') }}css/web_details2.0.css" />
     <script src="{{ URL::asset('/') }}js/jquery.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="{{ URL::asset('/') }}image/web/logo_h.png"/>
-
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?e6e8e979116c873af381afaf9cb8daf1";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    <script src="{{ URL::asset('/') }}js/slider.js"></script>
+    {{--    <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>--}}
 
 </head>
 
 <body>
-<div class="index_1 mar">
-    <nav>
-        <div class="w_1200 ov">
-            <a href="{{ url('/home/en') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
-            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
-            <a href="{{ url('/about/en') }}" class="right nav_a">About us</a>
-            <a href="{{ url('/home/en') }}" class="right nav_a_s">The Creation</a>
-        </div>
-    </nav>
-    <div class="w_1200">
-        <p class="f_72" style="padding-top:350px">A new era is coming soon</p>
-        <p class="f_30 p_t40">Smart glasses that can be put into your pockets are here</p>
 
-        <p class="f_70 c_f" style="padding-top:690px;">Many people ask me why I choose smart glasses.<br />“To create the future, and to give life more meaning”</p>
-        <p class="f_70 c_f" style="padding-top:560px;">I started with voices of doubts that have not yet stopped</p>
-        <p class="f_36 c_f" style="padding-top:100px;">
-            You don’t know algorithms. You have no supply chains. How dare you?<br /><br />Such project is for MTI or Stanford geniuses.<br /><br />I graduated from Special Class for the Gifted Young in University of Science and Technology of China, and now work in a research institute, but I dare not do it.<br /><br />You know nothing about the difficulties in developing hardware.
-        </p>
-        <p class="f_70 c_f" style="padding-top:660px;">Go your own way, and find the courage to pursue your dreams</p>
-        <p class="f_36 c_f" style="padding-top:100px;">I hope to encourage more ordinary people like me to challenge ourselves, and pursue dreams.</p>
+@include('/common/web_navigation_en')
+
+<div class="w_1200">
+    <p class="index_p1">Light Video</p>
+    <p class="index_p2">The Best Phone Game Partner</p>
+    <p class="index_p3">Augmented reality glasses Give you a better gaming experience</p>
+    <div class="index_div1 ov">
+        <span class="video_play left" onclick="play(1)">Watch The video</span>
+        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="pre_a right">Pre-order</a>
     </div>
 </div>
-<div class="index_2 ov w_1200">
-    <div class="index_3 left">
-        <p class="index_2_p1">In 2017, I began the journey alone.</p>
-        <p class="index_2_p2">Those who doubt me predict my end with their limited experience.<br />But my persistence comes from the enjoyment of creation.<br />I enjoy it every day.</p>
-        <a href="{{ url('/story2017/en') }}" class="index_2_p3 mar">To know more stories.</a>
-    </div>
-    <div class="index_4 right">
-        <p class="index_2_p1">In 2018, I march forward in exploration.</p>
-        <p class="index_2_p2">I always believe the future is better.<br />Even though it is no ideal,<br />we should still keep trying.</p>
-        <a href="{{ url('/story2018/en') }}" class="index_2_p3 mar">To know more stories.</a>
-    </div>
+<img src="{{ URL::asset('/') }}image/web/detail_index_1.png" alt="" class="index_img1">
+<p class="index_p4 w_1200">
+    The initial intention to design “Light Video” is to bring<br />more happiness to you, and to make
+    everything<br />simple and convenient. Our product focuses on<br />video-watching and game-playing.
+</p>
+
+<div class="slider" style="width: auto; position: relative;">
+    <img src="{{ URL::asset('/') }}image/web/banner_1.png" alt="">
+    <img src="{{ URL::asset('/') }}image/web/banner_2.png" alt="">
+    <img src="{{ URL::asset('/') }}image/web/banner_3.png" alt="">
 </div>
-<div class="index_5 mar index_2">
-    <p class="index_2_p1" style="padding-top:80px;">In 2019,</p>
-    <p class="index_2_p2">Make a pair of 80-gram smart glasses that can be put into your pockets.</p>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slider').bxSlider({
+            slideMargin: 10,
+            auto: true
+        });
+    });
+</script>
+<div class="index_div2">
+    <div class="w_1200">
+        <p class="index_p5">"Light Video" glasses focus on:<br />Display, Sound and Comfort. </p>
+        <p class="index_p6">We have spent 3 years designing and perfecting "Light Video" glasses, mainly in order to
+            create an incredible visual experience. We have always believed that the supporting technology of "Light
+            Video" glasses should highlight wonderful visual experience. The design of this product focuses on three
+            aspects: Display, Sound and Comfort. First, the display effect must be perfect; Second, the sound must
+            be pleasing to the ear, to the extent that the users are able to recognize the difference between treble
+            and bass; Last but most important, it should be comfortable to wear. Even if you wear it all day, it
+            won't make you feel uncomfortable.</p>
+    </div>
+    <img src="{{ URL::asset('/') }}image/web/detail_index_2.png" alt="" style="display: block;margin: 100px auto 0 auto;">
 </div>
-<footer class="index_2">
-    <div class="w_1200 mar ov">
-        <div class="footer_1 left">
-            <a href="{{ url('/home/en') }}" class="footer_1_a">The Creation</a>
-            <a href="{{ url('/about/en') }}" class="footer_1_a">About us</a>
-            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="footer_1_a footer_1_a1">Pre-order</a>
+<div class="index_div3">
+    <p class="index_p5">Technical Characteristics</p>
+    <div class="index_div3_1">
+        <span class="index_span1 index_span5">Display</span>
+        <span class="index_span2">Sound</span>
+        <span class="index_span3">Comfort</span>
+        <span class="index_span4">Charge</span>
+    </div>
+    <div class="index_div4_1 w_1200">
+        <p class="index_p6">The glasses use a display screen only of the size of a thumb, but with a density of 5648
+            pixels per inch that can be called "a super retinal screen". This technology is also a leading
+            technology in the industry globally. We cooperate with Apple's screen suppliers to ensure the screen
+            quality.</p>
+        <img src="{{ URL::asset('/') }}image/web/index_3_1.png" alt="" style="display: block;margin: 50px auto 0 auto;">
+        <table class="index_table">
+            <tr class="index_tr1">
+                <td>75%</td>
+                <td>5648</td>
+                <td>1000:1</td>
+            </tr>
+            <tr class="index_tr2">
+                <td>NTSC</td>
+                <td>PPI</td>
+                <td>Contrast</td>
+            </tr>
+        </table>
+        <table class="index_table">
+            <tr class="index_tr1">
+                <td>0.39inch</td>
+                <td>1920 x 1080 </td>
+                <td>800cd/m2</td>
+            </tr>
+            <tr class="index_tr2">
+                <td>Screen size</td>
+                <td>Resolution</td>
+                <td>Peak luminance</td>
+            </tr>
+        </table>
+    </div>
+    <div class="index_div4_2 none">
+        <div class="w_1200">
+            <p class="index_p6" style="color: #fff;padding-top: 60px;">In terms of sound, the glasses have a
+                near-ear stereo surround sound effect, which has high sound quality without disturbing others. There
+                is a speaker on each temple with left and right placement to produce stereo channel.</p>
         </div>
-        <div class="footer_2 right">
-            <a href="" class="footer_2_1">Privacy policy</a>
-            <a href="" class="footer_2_1">Terms of Service</a>
-            <span class="footer_2_1">©2019 京ICP备19040913号</span>
+    </div>
+    <div class="index_div4_3 none">
+        <div class="w_1200">
+            <p class="index_p6" style="padding-top: 60px;">The "Light Video" glasses adopts a compatible design for
+                both men and women, which can fit 95% of the head size in the world. The bending degree of the nasal
+                brace can be adjusted by hand to adapt to pad arms of different shapes. In addition, the nose pad
+                can be freely replaced according to the different needs of each person.</p>
+            <span class="video_play" style="margin-top: 460px;margin-left: 370px;" onclick="play(2)">Watch The
+                    video</span>
         </div>
     </div>
-</footer>
+    <div class="index_div4_4 none">
+        <div class="w_1200">
+            <p class="index_p6" style="color: #fff;padding-top: 60px;">The glasses have a battery powerof
+                7000mAh(typ)/h, which will allow you to enjoy the video for 7 hours or play games for 4 hours. They
+                are equipped with USB Type-C double-sided charging interface, which can support blind insertion at
+                night. Its host supports PD fast charging protocol, which supports being fully charged for only 1-2
+                hours.</p>
+            <span class="video_play" style="margin-top: 560px;margin-left: 370px;" onclick="play(3)">Watch The
+                    video</span>
+        </div>
+    </div>
+</div>
+<div class="index_div2">
+    <div class="w_1200" style="position: relative;">
+        <p class="index_p5">Device Support</p>
+        <p class="index_p6">No matter what device you are using (e.g. mobile phone, tablet, computer), you can
+            connect it with the glasses. You don't need to change a new mobile phone or buy a new device. "Light
+            Video" glasses are compatible with the following systems: Android/iOS/windows/MacOS, so you can use
+            different devices to connect to them and watch videos in the glasses.</p>
+        <img src="{{ URL::asset('/') }}image/web/index_4.png" alt="" style="display: block;margin: 20px auto 0 auto;">
+        <span class="video_play" style="position: absolute;bottom: 210px;left: 550px;" onclick="play(4)">Watch The
+                video</span>
+    </div>
+</div>
+<div class="index_div5 w_1200">
+    <p class="index_p5">Technical Parameters</p>
+    <div class="ov" style="margin-top: 80px;">
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">The screen</li>
+                <li class="index_li2">0.39 inches (diagonal)</li>
+                <li class="index_li2">Micro AMOLED Screen</li>
+                <li class="index_li2">Resolution：1920X1080 FHD+5648PPI</li>
+                <li class="index_li2">Screen brightness：800nit (HBM)</li>
+                <li class="index_li2">High Contrast：10000:1</li>
+                <li class="index_li2">Wide Color Gamut Display： NTSC 75% (Typ)</li>
+{{--                <li class="index_li2">HDR display supported</li>--}}
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Battery</li>
+                <li class="index_li2">7000mAh (typ)</li>
+                <li class="index_li2">Built in 4.35v high voltage lithium-ion polymer battery</li>
+            </ul>
+        </div>
+    </div>
+    <i class="line"></i>
+    <div class="ov" style="margin-top: 80px;">
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">USB Type-C Interface</li>
+                <li class="index_li2">Enhanced by offering reversible plug</li>
+                <li class="index_li2">and cable directions</li>
+                <li class="index_li2">Support USB Type-C Specification</li>
+                <li class="index_li2">Support try.SRC Role</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Support for PD fast charging protoco</li>
+                <li class="index_li2">Output Charge Protocol:</li>
+                <li class="index_li2">Support BC1.2 DCP (5V/500mA)</li>
+                <li class="index_li2" style="margin-top: 40px;">Input Fast Charge Protocol:</li>
+                <li class="index_li2">Support PD3.0/PD2.0</li>
+            </ul>
+        </div>
+    </div>
+    <div class="ov" style="margin-top: 80px;">
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Protection</li>
+                <li class="index_li2">Input Over Voltage Protection</li>
+                <li class="index_li2">Output Over Current Protection</li>
+                <li class="index_li2">Output Short Protection</li>
+                <li class="index_li2">Charger Over Time Protection</li>
+                <li class="index_li2">Charger Over Voltage Protection</li>
+                <li class="index_li2">Over Temperature Protection</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Network</li>
+                <li class="index_li2">WLAN protocol：IEEE 802.11b/g/n/ac </li>
+                <li class="index_li2">WLAN frequency：2.412GHz ~ 2.485GHz </li>
+                <li class="index_li2">5.125GHz ~ 5.845GHz (5.0 GHz ISM Band) Light video</li>
+            </ul>
+        </div>
+    </div>
+    <i class="line"></i>
+    <div class="ov" style="margin-top: 80px;">
+        <div class="index_div5_1 left" style="width: 45%;">
+            <ul class="index_ul1">
+                <li class="index_li1">Light video</li>
+                <li class="index_li2">Length: 157mm</li>
+                <li class="index_li2">Width: 74.64mm</li>
+                <li class="index_li2">Height: 40.94mm</li>
+                <li class="index_li2">Weight: 63g</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <img src="{{ URL::asset('/') }}image/web/index_5.png" alt="" style="display: block;">
+        </div>
+    </div>
+    <div class="ov" style="margin-top: 100px;">
+        <div class="index_div5_1 left" style="width: 45%;">
+            <ul class="index_ul1">
+                <li class="index_li1">Computer</li>
+                <li class="index_li2">Length: 141mm</li>
+                <li class="index_li2">Width: 55mm</li>
+                <li class="index_li2">Height: 14.48 mm</li>
+                <li class="index_li2">Weight: 150</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <img src="{{ URL::asset('/') }}image/web/index_6.png" alt="" style="display: block;">
+        </div>
+    </div>
+    <div class="ov" style="margin-top: 100px;">
+        <div class="index_div5_1 left" style="width: 45%;">
+            <ul class="index_ul1">
+                <li class="index_li1">Data line</li>
+                <li class="index_li2">Length: 100cm</li>
+                <li class="index_li2">Interface type: usb-c / usb-a</li>
+                <li class="index_li2">Material: TPE</li>
+                <li class="index_li2">Weight: 28g</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <img src="{{ URL::asset('/') }}image/web/index_7.png" alt="" style="display: block;">
+        </div>
+    </div>
+    <div class="ov" style="margin-top: 50px;">
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Spk</li>
+                <li class="index_li2">Two 0615 speakers</li>
+                <li class="index_li2">Design of 0.7cc super large cavity</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Audio format</li>
+                <li class="index_li2">MP1/MP2/MP3、WMA、OGG，</li>
+                <li class="index_li2">ADPCM-WAV,PCM-WAV、AAC</li>
+            </ul>
+        </div>
+    </div>
+    <i class="line"></i>
+    <div class="ov">
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Video format</li>
+                <li class="index_li2">avi、divx、mkv、ts、dat、vob、mpg、</li>
+                <li class="index_li2">mpeg、mov、mp4、rm、rmvb、wmv</li>
+            </ul>
+        </div>
+        <div class="index_div5_1 left">
+            <ul class="index_ul1">
+                <li class="index_li1">Sensor</li>
+                <li class="index_li2">Proximity Sensing，For saving battery life</li>
+            </ul>
+        </div>
+    </div>
+    <i class="line"></i>
+    <div class="ov">
+        <ul class="index_ul1">
+            <li class="index_li1">Packing list</li>
+            <li class="index_li2">glasses ，host，USB3.0 data cable，glasses cloth，Startup GuideOperating
+                Instructions，exquisite gift box</li>
+        </ul>
+    </div>
+</div>
+<div class="index_div2">
+    <div class="w_1200">
+        <p class="index_p5">Team</p>
+        <p class="index_p6">Aircup’s team members are in Germany and China. Chinese team is responsible for product
+            R & D, procurement, production, and marketing. German team provides technical support.</p>
+        <div class="ov">
+            <div class="index_div5_1 left">
+                <p class="index_p7">Chinese Team</p>
+                <div class="ov" style="margin-top: 40px;">
+                    <img src="{{ URL::asset('/') }}image/web/tx_1.png" alt="" class="left">
+                    <p class="left index_p8">Years of entrepreneurial experience in smart<br />glasses</p>
+                </div>
+                <p class="index_p9">Daniel</p>
+                <p class="index_p10">CEO and founder</p>
+                <div class="ov" style="margin-top: 50px;">
+                    <img src="{{ URL::asset('/') }}image/web/tx_2.png" alt="" class="left">
+                    <p class="left index_p8">Senior Software Engineer<br />Second prize of robot programming
+                        competition</p>
+                </div>
+                <p class="index_p9">Junfeng Guo</p>
+                <p class="index_p10">Engineer</p>
+                <div class="ov" style="margin-top: 50px;">
+                    <img src="{{ URL::asset('/') }}image/web/tx_3.png" alt="" class="left">
+                    <p class="left index_p8">Senior Electronic Engineer</p>
+                </div>
+                <p class="index_p9">Haijing Guan</p>
+                <p class="index_p10">Engineer</p>
+            </div>
+            <div class="index_div5_1 left">
+                <p class="index_p7">German Team</p>
+                <div class="ov" style="margin-top: 40px;">
+                    <img src="{{ URL::asset('/') }}image/web/tx_4.png" alt="" class="left">
+                    <p class="left index_p8">TU Darmstadt<br />Finish Machining</p>
+                </div>
+                <p class="index_p9">Dr.-Ing. Martin lu</p>
+                <p class="index_p10">Copartner</p>
+                <div class="ov" style="margin-top: 50px;">
+                    <img src="{{ URL::asset('/') }}image/web/tx_5.png" alt="" class="left">
+                    <p class="left index_p8">TU Darmstadt<br />Optical Design & Finish Machining</p>
+                </div>
+                <p class="index_p9">Dr. -Ing. Alexander Stroh</p>
+                <p class="index_p10">Consulting</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@include('/common/web_footer_en')
+
+<div class="bg none">
+    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v1" class="none"></video>
+    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v2" class="none"></video>
+    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v3" class="none"></video>
+    <video src="{{ URL::asset('/') }}video/video_1.mp4" controls="controls" id="v4" class="none"></video>
+</div>
+
+
 </body>
 <script>
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            var topp = $(document).scrollTop();
-            if (topp > 10) {
-                $("nav").css({
-                    "background": "#3c3d3d"
-                });
-                $(".nav_a").css({
-                    "color": "#fff"
-                });
-                $(".nav_logo").attr("src", "{{ URL::asset('/') }}image/web/logo_b.png");
-            } else if (topp < 10) {
-                $("nav").css({
-                    "background": "rgba(0,0,0,0)"
-                });
-                $(".nav_a").css({
-                    "color": "#333"
-                });
-                $(".nav_logo").attr("src", "{{ URL::asset('/') }}image/web/logo_h.png");
-            }
-        })
+    $(".index_span1").click(function () {
+        $(this).addClass("index_span5");
+        $(this).siblings("span").removeClass("index_span5");
+        $(".index_div4_1").show();
+        $(".index_div4_2").hide();
+        $(".index_div4_3").hide();
+        $(".index_div4_4").hide();
     })
+    $(".index_span2").click(function () {
+        $(this).addClass("index_span5");
+        $(this).siblings("span").removeClass("index_span5");
+        $(".index_div4_2").show();
+        $(".index_div4_1").hide();
+        $(".index_div4_3").hide();
+        $(".index_div4_4").hide();
+    })
+    $(".index_span3").click(function () {
+        $(this).addClass("index_span5");
+        $(this).siblings("span").removeClass("index_span5");
+        $(".index_div4_3").show();
+        $(".index_div4_2").hide();
+        $(".index_div4_1").hide();
+        $(".index_div4_4").hide();
+    })
+    $(".index_span4").click(function () {
+        $(this).addClass("index_span5");
+        $(this).siblings("span").removeClass("index_span5");
+        $(".index_div4_4").show();
+        $(".index_div4_2").hide();
+        $(".index_div4_3").hide();
+        $(".index_div4_1").hide();
+    })
+    $(".bg").click(function () {
+        $(this).hide();
+        $("video").css("display","none")
+    })
+    $("video").on('click', function (e) {
+        e.stopPropagation();
+    });
+    function play(a){
+        $(".bg").show();
+        if(a==1){
+            $("#v1").css("display","block")
+        }else if(a==2){
+            $("#v2").css("display","block")
+        }else if(a==3){
+            $("#v3").css("display","block")
+        }else if(a==4){
+            $("#v4").css("display","block")
+        }
+    }
+
 </script>
 
 </html>

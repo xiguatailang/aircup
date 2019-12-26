@@ -21,14 +21,9 @@
 </head>
 
 <body>
-<nav>
-    <div class="w_1200 ov">
-        <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
-        <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="right nav_a">预定购买</a>
-        <a href="{{ url('/about') }}" class="right nav_a">关于我们</a>
-        <a href="{{ url('/') }}" class="right nav_a_s">造物记</a>
-    </div>
-</nav>
+
+@include('/common/web_navigation_cn')
+
 <div class="story_1 mar">
     <p class="story_1_1 f_72">2017年，独自上路</p>
     <p class="f_30 m_t20">那些质疑我的人是以他们有限的经验，预判我的结局<br />而我的坚持源自,享受创造的过程，并每天乐在其中</p>
@@ -142,20 +137,9 @@
 
     <a href="{{ url('/story2018') }}" class="index_2_p3 mar">了解更多故事</a>
 </div>
-<footer>
-    <div class="w_1200 mar ov">
-        <div class="footer_1 left">
-            <a href="{{ url('/') }}" class="footer_1_a">造物记</a>
-            <a href="{{ url('/about') }}" class="footer_1_a">关于我们</a>
-            <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="footer_1_a footer_1_a1">预定购买</a>
-        </div>
-        <div class="footer_2 right">
-            <a href="" class="footer_2_1">隐私政策</a>
-            <a href="" class="footer_2_1">服务条款</a>
-            <span class="footer_2_1">©2019 京ICP备19040913号</span>
-        </div>
-    </div>
-</footer>
+
+@include('/common/web_footer_cn')
+
 </body>
 <script>
     $(document).ready(function () {
