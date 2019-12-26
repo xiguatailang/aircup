@@ -49,6 +49,7 @@
     <span class="index_span1" onclick="swicth(1,this)">Display</span>
     <span onclick="swicth(2,this)">Sound</span>
     <span onclick="swicth(3,this)">Comfort</span>
+    <span onclick="swicth(5,this)">Weight</span>
     <span onclick="swicth(4,this)">Charge</span>
 </div>
 <div class="index_div2">
@@ -97,6 +98,10 @@
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.png" alt="" class="index_img2">
         <span class="video_play" style="position: absolute;bottom: 0.5rem;left: 2.2rem;" onclick="play(2)">Watch The
                 Video</span>
+    </div>
+    <div class="index_div2_1" style="display: none;" id="div5">
+        <p class="index_p2 p_t30">Generally, people tend to indulge in watching videos and playing mobile games,  Therefore, we need a pair of light glasses. We are striving to reduce the weight of "Light Video" glasses. At present, the one pair weighs less than 62.7g, which is equivalent to 3 pairs of prescription glasses only.</p>
+        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_5.jpeg" alt="" class="index_img2">
     </div>
     <div class="index_div2_1" style="display: none;" id="div4">
         <p class="index_p2 p_t40">The glasses have a battery powerof 7000mAh(typ)/h, which will allow you to enjoy
@@ -307,6 +312,10 @@
         } else if (num == 4) {
             $("#div4").show();
             $("#div4").siblings().hide()
+        }
+        else if (num == 5) {
+            $("#div5").show();
+            $("#div5").siblings().hide()
         }
     }
 

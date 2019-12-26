@@ -33,13 +33,14 @@
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_4.png" alt="" class="index_img">
 <p class="index_p1">轻影专注于: <br />显示、声音、佩戴舒适</p>
 <p class="index_p2">我们耗费了3年时间设计和完善轻影，主要目标是创造一个令人难以置信的观影体验。我们一直认为轻影背后的技术应该突出观影体验，我们设计它就是为了这个目的。聚焦三个重点来设计这款产品：显示、声音、舒适性。我们要求显示效果非常清晰；声音悦耳，可以让使用者听出高音与低音的区别；最重要的是带着舒服，即使你一整天都带着它，也不会感到不适。</p>
-<img src="{{ URL::asset('/') }}image/mobile2.0/index_5.png" alt="" class="index_img" style="width: 90%;margin-left: auto;margin-right: auto;">
+<img src="{{ URL::asset('/') }}image/mobile2.0/index_5_cn_bop.jpeg" alt="" class="index_img" style="width: 90%;margin-left: auto;margin-right: auto;">
 <div class="h_50"></div>
 <p class="index_p1">技术特点</p>
 <div class="index_div1">
     <span class="index_span1" onclick="swicth(1,this)">显示</span>
     <span onclick="swicth(2,this)">声音</span>
     <span onclick="swicth(3,this)">舒适</span>
+    <span onclick="swicth(5,this)">重量</span>
     <span onclick="swicth(4,this)">充电</span>
 </div>
 <div class="index_div2">
@@ -79,6 +80,10 @@
         <p class="index_p2 p_t40">轻影的尺寸做了男女通用的兼容设计，满足全球95%的头部尺寸。鼻托杆可以用手调整弯曲度，以适应鼻梁的不同。鼻托可以更换，根据每个人的不同，自由选择。</p>
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.png" alt="" class="index_img2">
         <span class="video_play" style="position: absolute;bottom: 0.5rem;left: 2.2rem;" onclick="play(2)">观看影片</span>
+    </div>
+    <div class="index_div2_1" style="display: none;" id="div5">
+        <p class="index_p2 p_t30">人们看视频和玩手游的时间通常都很久，因此我们需要一款轻盈的眼镜。轻影努力的降低重量，目前整机重量62.7g，仅相当3幅处方眼镜。</p>
+        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_5.jpeg" alt="" class="index_img2">
     </div>
     <div class="index_div2_1" style="display: none;" id="div4">
         <p class="index_p2 p_t40">7000mAh(typ)/h的高续航电池，酣畅观影7小时，打游戏4个小时，USB Type-C双面充电接口，支持在夜间盲插。主机支持PD快充协议，1-2小时即可充满电。</p>
@@ -144,7 +149,7 @@
     高度: 40.94mm<br />
     重量: 63g
 </p>
-<img src="{{ URL::asset('/') }}image/mobile2.0/index_8.png" alt="" style="width: 70%;display: block;margin-left: 1.6rem;">
+<img src="{{ URL::asset('/') }}image/mobile2.0/index_8_cn.jpeg" alt="" style="width: 70%;display: block;margin-left: 1.6rem;">
 <p class="index_p3 m_t40">主机</p>
 <p class="index_p2 m_t10">
     长度: 141mm<br />
@@ -152,7 +157,7 @@
     高度: 14.48 mm<br />
     重量: 150
 </p>
-<img src="{{ URL::asset('/') }}image/mobile2.0/index_9.png" alt="" style="width: 65%;display: block;margin: 0.3rem auto 0 1.5rem;">
+<img src="{{ URL::asset('/') }}image/mobile2.0/index_9_cn.jpeg" alt="" style="width: 65%;display: block;margin: 0.3rem auto 0 1.5rem;">
 <p class="index_p3 m_t40">数据线</p>
 <p class="index_p2 m_t10">
     长度: 100cm<br />
@@ -279,6 +284,10 @@
         } else if (num == 4) {
             $("#div4").show();
             $("#div4").siblings().hide()
+        }
+        else if (num == 5) {
+            $("#div5").show();
+            $("#div5").siblings().hide()
         }
     }
 

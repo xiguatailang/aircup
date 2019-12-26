@@ -55,6 +55,7 @@
         <span class="index_span1 index_span5">显示</span>
         <span class="index_span2">声音</span>
         <span class="index_span3">舒适</span>
+        <span class="index_span6">重量</span>
         <span class="index_span4">充电</span>
     </div>
     <div class="index_div4_1 w_1200">
@@ -95,6 +96,11 @@
             <p class="index_p6" style="padding-top: 60px;">轻影的尺寸做了男女通用的兼容设计，满足全球95%的头部尺寸。鼻托杆可以用手调整弯曲度，以适应鼻梁的不同。鼻托可以更换，根据每个人的不同，自由选择。</p>
             <span class="video_play" style="margin-top: 460px;margin-left: 370px;" onclick="play(2)">Watch The
                     video</span>
+        </div>
+    </div>
+    <div class="index_div4_6 none">
+        <div class="w_1200">
+            <p class="index_p6" style="padding-top: 60px;">人们看视频和玩手游的时间通常都很久，因此我们需要一款轻盈的眼镜。轻影努力的降低重量，目前整机重量62.7g，仅相当3幅处方眼镜。</p>
         </div>
     </div>
     <div class="index_div4_4 none">
@@ -189,7 +195,7 @@
             </ul>
         </div>
         <div class="index_div5_1 left">
-            <img src="{{ URL::asset('/') }}image/web/index_5.png" alt="" style="display: block;">
+            <img src="{{ URL::asset('/') }}image/web/index_5_cn.jpeg" alt="" style="display: block;">
         </div>
     </div>
     <div class="ov" style="margin-top: 100px;">
@@ -203,7 +209,7 @@
             </ul>
         </div>
         <div class="index_div5_1 left">
-            <img src="{{ URL::asset('/') }}image/web/index_6.png" alt="" style="display: block;">
+            <img src="{{ URL::asset('/') }}image/web/index_6_cn.jpeg" alt="" style="display: block;">
         </div>
     </div>
     <div class="ov" style="margin-top: 100px;">
@@ -325,6 +331,7 @@
         $(".index_div4_2").hide();
         $(".index_div4_3").hide();
         $(".index_div4_4").hide();
+        $(".index_div4_6").hide();
     })
     $(".index_span2").click(function () {
         $(this).addClass("index_span5");
@@ -333,12 +340,23 @@
         $(".index_div4_1").hide();
         $(".index_div4_3").hide();
         $(".index_div4_4").hide();
+        $(".index_div4_6").hide();
     })
     $(".index_span3").click(function () {
         $(this).addClass("index_span5");
         $(this).siblings("span").removeClass("index_span5");
         $(".index_div4_3").show();
         $(".index_div4_2").hide();
+        $(".index_div4_1").hide();
+        $(".index_div4_4").hide();
+        $(".index_div4_6").hide();
+    })
+    $(".index_span6").click(function () {
+        $(this).addClass("index_span5");
+        $(this).siblings("span").removeClass("index_span5");
+        $(".index_div4_6").show();
+        $(".index_div4_2").hide();
+        $(".index_div4_3").hide();
         $(".index_div4_1").hide();
         $(".index_div4_4").hide();
     })
@@ -349,6 +367,7 @@
         $(".index_div4_2").hide();
         $(".index_div4_3").hide();
         $(".index_div4_1").hide();
+        $(".index_div4_6").hide();
     })
     $(".bg").click(function () {
         $(this).hide();

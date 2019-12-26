@@ -62,6 +62,7 @@
         <span class="index_span1 index_span5">Display</span>
         <span class="index_span2">Sound</span>
         <span class="index_span3">Comfort</span>
+        <span class="index_span6">Weight</span>
         <span class="index_span4">Charge</span>
     </div>
     <div class="index_div4_1 w_1200">
@@ -110,6 +111,11 @@
                 can be freely replaced according to the different needs of each person.</p>
             <span class="video_play" style="margin-top: 460px;margin-left: 370px;" onclick="play(2)">Watch The
                     video</span>
+        </div>
+    </div>
+    <div class="index_div4_6 none">
+        <div class="w_1200">
+            <p class="index_p6" style="padding-top: 60px;">Generally, people tend to indulge in watching videos and playing mobile games,  Therefore, we need a pair of light glasses. We are striving to reduce the weight of "Light Video" glasses. At present, the one pair weighs less than 62.7g, which is equivalent to 3 pairs of prescription glasses only.</p>
         </div>
     </div>
     <div class="index_div4_4 none">
@@ -352,6 +358,7 @@
         $(".index_div4_2").hide();
         $(".index_div4_3").hide();
         $(".index_div4_4").hide();
+        $(".index_div4_6").hide();
     })
     $(".index_span2").click(function () {
         $(this).addClass("index_span5");
@@ -360,12 +367,23 @@
         $(".index_div4_1").hide();
         $(".index_div4_3").hide();
         $(".index_div4_4").hide();
+        $(".index_div4_6").hide();
     })
     $(".index_span3").click(function () {
         $(this).addClass("index_span5");
         $(this).siblings("span").removeClass("index_span5");
         $(".index_div4_3").show();
         $(".index_div4_2").hide();
+        $(".index_div4_1").hide();
+        $(".index_div4_4").hide();
+        $(".index_div4_6").hide();
+    })
+    $(".index_span6").click(function () {
+        $(this).addClass("index_span5");
+        $(this).siblings("span").removeClass("index_span5");
+        $(".index_div4_6").show();
+        $(".index_div4_2").hide();
+        $(".index_div4_3").hide();
         $(".index_div4_1").hide();
         $(".index_div4_4").hide();
     })
@@ -376,6 +394,7 @@
         $(".index_div4_2").hide();
         $(".index_div4_3").hide();
         $(".index_div4_1").hide();
+        $(".index_div4_6").hide();
     })
     $(".bg").click(function () {
         $(this).hide();
