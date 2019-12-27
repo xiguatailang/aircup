@@ -16,7 +16,7 @@
 @include('/common/web_navigation_cn')
 
 <div class="w_1200">
-    <p class="index_p1">轻影</p>
+    <p class="index_p1">轻影<sup>TM</sup></p>
     <p class="index_p2">最好的手机游戏伴侣</p>
     <p class="index_p3">AR眼镜给你更极致的游戏体验</p>
     <div class="index_div1 ov">
@@ -44,7 +44,7 @@
 </script>
 <div class="index_div2">
     <div class="w_1200">
-        <p class="index_p5">轻影专注于:<br />显示、声音、佩戴舒适 </p>
+        <p class="index_p5">轻影<sup>TM</sup>专注于:<br />显示、声音、佩戴舒适 </p>
         <p class="index_p6">我们耗费了3年时间设计和完善轻影，主要目标是创造一个令人难以置信的观影体验。我们一直认为轻影背后的技术应该突出观影体验，我们设计它就是为了这个目的。聚焦三个重点来设计这款产品：显示、声音、舒适性。我们要求显示效果非常清晰；声音悦耳，可以让使用者听出高音与低音的区别；最重要的是带着舒服，即使你一整天都带着它，也不会感到不适。</p>
     </div>
     <img src="{{ URL::asset('/') }}image/web/detail_index_2_cn.jpeg" alt="" style="display: block;margin: 100px auto 0 auto;">
@@ -113,7 +113,7 @@
 <div class="index_div2">
     <div class="w_1200" style="position: relative;">
         <p class="index_p5">设备兼容性</p>
-        <p class="index_p6">无论你现在使用什么设备（手机、平板、电脑）都可以连接。无需为此，再去换一部新手机或单独购买。我们的系统兼容：Android/iOS/windows/MacOS/ChromeOS，您可以用不同设备进行连接，在眼镜中观看。</p>
+        <p class="index_p6">无论你现在使用什么设备（手机、平板、电脑）都可以连接。无需为此，再去换一部新手机或单独购买。我们的系统兼容：Android/iOS/MacOS，您可以用不同设备进行连接，在眼镜中观看。未来兼容Windows。</p>
         <img src="{{ URL::asset('/') }}image/web/index_4.png" alt="" style="display: block;margin: 20px auto 0 auto;">
         <span class="video_play" style="position: absolute;bottom: 210px;left: 550px;" onclick="play(4)">观看影片</span>
     </div>
@@ -126,7 +126,7 @@
                 <li class="index_li1">屏幕</li>
                 <li class="index_li2">0.39英寸(对角线)</li>
                 <li class="index_li2">Micro AMOLED Screen</li>
-                <li class="index_li2">分辨率：1920X1080 FHD+5648PPI</li>
+                <li class="index_li2">分辨率：1920X1080 FHD | PPI:5648</li>
                 <li class="index_li2">屏幕亮度：800nit (HBM)</li>
                 <li class="index_li2">高对比度：10000:1</li>
                 <li class="index_li2">NTSC：75% (Typ)</li>
@@ -296,13 +296,13 @@
                 <p class="index_p7">德国团队</p>
                 <div class="ov" style="margin-top: 40px;">
                     <img src="{{ URL::asset('/') }}image/web/tx_4.png" alt="" class="left">
-                    <p class="left index_p8">TU Darmstadt<br />精加工技术</p>
+                    <p class="left index_p8">德国达姆斯塔特大学<br />东方学者，千人专家<br />上海应用技术大学特聘教授<br />精加工技术</p>
                 </div>
                 <p class="index_p9">Dr.-Ing. Martin lu</p>
                 <p class="index_p10">合伙人</p>
                 <div class="ov" style="margin-top: 50px;">
                     <img src="{{ URL::asset('/') }}image/web/tx_5.png" alt="" class="left">
-                    <p class="left index_p8">TU Darmstadt<br />光学设计&精加工技术</p>
+                    <p class="left index_p8">德国达姆斯塔特大学<br />光学设计&精加工技术</p>
                 </div>
                 <p class="index_p9">Dr. -Ing. Alexander Stroh</p>
                 <p class="index_p10">顾问</p>

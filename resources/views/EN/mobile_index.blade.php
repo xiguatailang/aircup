@@ -88,14 +88,14 @@
         <p class="index_p2 p_t30">In terms of sound, the glasses have a near-ear stereo surround sound effect, which
             has high sound quality without disturbing others. There is a speaker on each temple with left and right
             placement to produce stereo channel.</p>
-        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_2.png" alt="" class="index_img2">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_2.jpeg" alt="" class="index_img2">
     </div>
     <div class="index_div2_1" style="display: none;" id="div3">
         <p class="index_p2 p_t40">The "Light Video" glasses adopts a compatible design for both men and women, which
             can fit 95% of the head size in the world. The bending degree of the nasal brace can be adjusted by hand
             to adapt to pad arms of different shapes. In addition, the nose pad can be freely replaced according to
             the different needs of each person.</p>
-        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.png" alt="" class="index_img2">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.jpeg" alt="" class="index_img2">
         <span class="video_play" style="position: absolute;bottom: 0.5rem;left: 2.2rem;" onclick="play(2)">Watch The
                 Video</span>
     </div>
@@ -117,8 +117,8 @@
     <p class="index_p1">Device Support</p>
     <p class="index_p2">No matter what device you are using (e.g. mobile phone, tablet, computer), you can connect
         it with the glasses. You don't need to change a new mobile phone or buy a new device. "Light Video" glasses
-        are compatible with the following systems: Android/iOS/windows/MacOS, so you can use different devices to
-        connect to them and watch videos in the glasses.</p>
+        are compatible with the following systems: Android/iOS/MacOS, so you can use different devices to
+        connect to them and watch videos in the glasses.It will be compatible with Windows in the future.</p>
     <div style="padding-bottom: 0.4rem;position: relative;">
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_7.png" alt="" class="index_img" style="margin-top:-0.3rem;">
         <span class="video_play" style="position: absolute;bottom: 1.6rem;left: 3.6rem;" onclick="play(4)">Watch The
@@ -129,7 +129,7 @@
 <p class="index_p3 m_t40">The screen</p>
 <p class="index_p2 m_t10">0.39 inches (diagonal)<br />
     Micro AMOLED Screen<br />
-    Resolution：1920X1080 FHD+5648PPI<br />
+    Resolution：1920X1080 FHD | PPI:5648<br />
     Screen brightness：800nit (HBM)<br />
     High Contrast：10000:1<br />
     Wide Color Gamut Display： NTSC 75% (Typ)<br />
@@ -255,7 +255,7 @@
         <img src="{{ URL::asset('/') }}image/mobile2.0/tx_4.png" alt="" class="tx">
         <div style="float: left;margin-left: 0.3rem;margin-top: 0.3rem;">
             <p class="index_p2" style="color: #333;">Dr.-Ing. Martin lu<br />Copartner</p>
-            <p class="index_p2">TU Darmstadt<br />Finish Machining</p>
+            <p class="index_p2">TU Darmstadt<br />Oriental scholar, Thousand Talents Plan Expert<br />Distinguished Professor of Shanghai Institute of Technology<br />Finish Machining</p>
         </div>
     </div>
     <div class="index_div3">

@@ -135,8 +135,8 @@
         <p class="index_p5">Device Support</p>
         <p class="index_p6">No matter what device you are using (e.g. mobile phone, tablet, computer), you can
             connect it with the glasses. You don't need to change a new mobile phone or buy a new device. "Light
-            Video" glasses are compatible with the following systems: Android/iOS/windows/MacOS, so you can use
-            different devices to connect to them and watch videos in the glasses.</p>
+            Video" glasses are compatible with the following systems: Android/iOS/MacOS, so you can use
+            different devices to connect to them and watch videos in the glasses.It will be compatible with Windows in the future.</p>
         <img src="{{ URL::asset('/') }}image/web/index_4.png" alt="" style="display: block;margin: 20px auto 0 auto;">
         <span class="video_play" style="position: absolute;bottom: 210px;left: 550px;" onclick="play(4)">Watch The
                 video</span>
@@ -150,7 +150,7 @@
                 <li class="index_li1">The screen</li>
                 <li class="index_li2">0.39 inches (diagonal)</li>
                 <li class="index_li2">Micro AMOLED Screen</li>
-                <li class="index_li2">Resolution：1920X1080 FHD+5648PPI</li>
+                <li class="index_li2">Resolution：1920X1080 FHD | PPI:5648</li>
                 <li class="index_li2">Screen brightness：800nit (HBM)</li>
                 <li class="index_li2">High Contrast：10000:1</li>
                 <li class="index_li2">Wide Color Gamut Display： NTSC 75% (Typ)</li>
@@ -323,7 +323,7 @@
                 <p class="index_p7">German Team</p>
                 <div class="ov" style="margin-top: 40px;">
                     <img src="{{ URL::asset('/') }}image/web/tx_4.png" alt="" class="left">
-                    <p class="left index_p8">TU Darmstadt<br />Finish Machining</p>
+                    <p class="left index_p8">TU Darmstadt<br />Oriental scholar, Thousand Talents Plan Expert<br />Distinguished Professor of Shanghai Institute of Technology<br />Finish Machining</p>
                 </div>
                 <p class="index_p9">Dr.-Ing. Martin lu</p>
                 <p class="index_p10">Copartner</p>

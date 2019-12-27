@@ -18,7 +18,7 @@
 @include('/common/mobile_navigation_cn')
 
 <!-- 上面头部代码直接复制替换原来的html -->
-<p class="index_p1" style="padding-top: 1.4rem;">轻影 <br />最好的手机游戏伴侣</p>
+<p class="index_p1" style="padding-top: 1.4rem;">轻影<sup>TM</sup> <br />最好的手机游戏伴侣</p>
 <span class="video_play" style="margin: 0.6rem auto 0 auto;" onclick="play(1)">观看影片</span>
 <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="pre_a">预订购买</a>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_1.png" alt="" class="index_img">
@@ -31,7 +31,7 @@
 <p class="index_p1">与朋友一起多人游戏</p>
 <p class="index_p2">轻影可以很好的支持你手机里的所有游戏，而且轻影可以持续续航7个小时，你可以和朋友毫无顾虑的欢乐一整天。 </p>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_4.png" alt="" class="index_img">
-<p class="index_p1">轻影专注于: <br />显示、声音、佩戴舒适</p>
+<p class="index_p1">轻影<sup>TM</sup>专注于: <br />显示、声音、佩戴舒适</p>
 <p class="index_p2">我们耗费了3年时间设计和完善轻影，主要目标是创造一个令人难以置信的观影体验。我们一直认为轻影背后的技术应该突出观影体验，我们设计它就是为了这个目的。聚焦三个重点来设计这款产品：显示、声音、舒适性。我们要求显示效果非常清晰；声音悦耳，可以让使用者听出高音与低音的区别；最重要的是带着舒服，即使你一整天都带着它，也不会感到不适。</p>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_5_cn_bop.jpeg" alt="" class="index_img" style="width: 90%;margin-left: auto;margin-right: auto;">
 <div class="h_50"></div>
@@ -93,7 +93,7 @@
 </div>
 <div class="bg_f7">
     <p class="index_p1">设备兼容性</p>
-    <p class="index_p2">无论你现在使用什么设备（手机、平板、电脑）都可以连接。无需为此，再去换一部新手机或单独购买。我们的系统兼容：Android/iOS/windows/MacOS/ChromeOS，您可以用不同设备进行连接，在眼镜中观看。</p>
+    <p class="index_p2">无论你现在使用什么设备（手机、平板、电脑）都可以连接。无需为此，再去换一部新手机或单独购买。我们的系统兼容：Android/iOS/MacOS，您可以用不同设备进行连接，在眼镜中观看。未来兼容Windows。</p>
     <div style="padding-bottom: 0.4rem;position: relative;">
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_7.png" alt="" class="index_img" style="margin-top:-0.3rem;">
         <span class="video_play" style="position: absolute;bottom: 1.6rem;left: 3.6rem;" onclick="play(4)">观看影片</span>
@@ -103,7 +103,7 @@
 <p class="index_p3 m_t40">屏幕</p>
 <p class="index_p2 m_t10">0.39英寸(对角线)<br />
     Micro AMOLED Screen<br />
-    分辨率：1920X1080 FHD+5648PPI<br />
+    分辨率：1920X1080 FHD | PPI:5648<br />
     屏幕亮度：800nit (HBM)<br />
     高对比度：10000:1<br />
     NTSC：75% (Typ)<br />
@@ -227,7 +227,7 @@
         <img src="{{ URL::asset('/') }}image/mobile2.0/tx_4.png" alt="" class="tx">
         <div style="float: left;margin-left: 0.3rem;margin-top: 0.3rem;">
             <p class="index_p2" style="color: #333;">Dr.-Ing. Martin lu<br />合伙人</p>
-            <p class="index_p2">TU Darmstadt<br />精加工技术</p>
+            <p class="index_p2">德国达姆斯塔特大学<br />东方学者，千人专家<br />上海应用技术大学特聘教授<br />精加工技术</p>
         </div>
     </div>
     <div class="index_div3">
