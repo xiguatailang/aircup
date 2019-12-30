@@ -26,8 +26,8 @@ textarea {  -webkit-appearance: none;}
 
 
 .index_p1{font-size: 0.36rem;font-weight: bold;text-align: center;padding-top: 0.4rem;line-height: 0.64rem;}
-.video_play{color: #028dff;font-size: 0.3rem;background: url(/image/mobile2.0play.png)no-repeat left center;background-size: 0.3rem;height: 0.6rem;line-height: 0.6rem;padding-left: 0.4rem;display: block;width: 2.8rem;}
-.pre_a{width: 3.4rem;height: 0.84rem;line-height: 0.84rem;background: url(/image/mobile2.0pre.png)no-repeat right 0.7rem center #028dff;color: #fff;font-size: 0.36rem;padding-left: 0.8rem;border-radius: 10px;display: block;margin: 0.6rem auto 0.2rem auto;background-size: 0.12rem;}
+.video_play{color: #028dff;font-size: 0.3rem;background: url(/image/mobile2.0/play.png)no-repeat left center;background-size: 0.3rem;height: 0.6rem;line-height: 0.6rem;padding-left: 0.4rem;display: block;width: 2.8rem;}
+.pre_a{width: 3.4rem;height: 0.84rem;line-height: 0.84rem;background: url(/image/mobile2.0/pre.png)no-repeat right 0.7rem center #028dff;color: #fff;font-size: 0.36rem;padding-left: 0.8rem;border-radius: 10px;display: block;margin: 0.6rem auto 0.2rem auto;background-size: 0.12rem;}
 .index_p2{font-size: 0.24rem;color: #666;line-height: 0.42rem;padding: 0 0.3rem;}
 .index_img{display: block;width: 100%;margin-top: 0.4rem;}
 .index_div1{width: 6.6rem;margin: 0 auto;display: flex;border-bottom: 1px solid #999;text-align: center;font-size: 0.3rem;color: #7d7d7d;justify-content:space-around;margin-top: 0.3rem;}
@@ -58,7 +58,7 @@ textarea {  -webkit-appearance: none;}
 .privacy_p1{font-size: 0.24rem;margin-top: 0.3rem;line-height: 0.42rem;padding: 0 0.3rem;}
 .privacy_span1{color: #028dff;}
 .privacy_p2{font-weight: bold;font-size: 0.24rem;margin-top: 0.3rem;line-height: 0.42rem;padding: 0 0.3rem;}
-.dian{background: url(/image/mobile2.0dian.png)no-repeat left top 0.17rem;padding-left: 0.2rem;display: block;background-size: 0.1rem;}
+.dian{background: url(/image/mobile2.0/dian.png)no-repeat left top 0.17rem;padding-left: 0.2rem;display: block;background-size: 0.1rem;}
 .privacy_table{width: 100%;margin-top: 50px;border-collapse: collapse;font-size: 26px;line-height: 42px;}
 .privacy_table td{padding: 15px;}
 .t2em{display: block;padding-left: 20px;}

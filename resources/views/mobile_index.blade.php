@@ -18,8 +18,10 @@
 @include('/common/mobile_navigation_cn')
 
 <!-- 上面头部代码直接复制替换原来的html -->
-<p class="index_p1" style="padding-top: 1.4rem;">轻影<sup style="font-size: 0.2rem;color: #666666;">TM</sup> <br />最好的手机游戏伴侣</p>
-<span class="video_play" style="margin: 0.6rem auto 0 auto;" onclick="play(1)">观看影片</span>
+<p class="index_p1" style="padding-top: 1.4rem;">轻影<sup style="font-size: 0.15rem;color: #666666;">TM</sup> <br />最好的手机游戏伴侣</p>
+{{--<p class="index_p1"><img src="{{ URL::asset('/') }}image/web/titile_tm.jpeg" alt=""></p>--}}
+{{--<p class="index_p2">最好的手机游戏伴侣</p>--}}
+<span class="video_play" style="margin: 0.6rem auto 0 2.7rem;" onclick="play(1)">观看影片</span>
 <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="pre_a">预订购买</a>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_1.png" alt="" class="index_img">
 <p class="index_p1">移动的高清电视</p>
@@ -31,7 +33,7 @@
 <p class="index_p1">与朋友一起多人游戏</p>
 <p class="index_p2">轻影可以很好的支持你手机里的所有游戏，而且轻影可以持续续航7个小时，你可以和朋友毫无顾虑的欢乐一整天。 </p>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_4.png" alt="" class="index_img">
-<p class="index_p1">轻影<sup>TM</sup>专注于: <br />显示、声音、佩戴舒适</p>
+<p class="index_p1">轻影专注于: <br />显示、声音、佩戴舒适</p>
 <p class="index_p2">我们耗费了3年时间设计和完善轻影，主要目标是创造一个令人难以置信的观影体验。我们一直认为轻影背后的技术应该突出观影体验，我们设计它就是为了这个目的。聚焦三个重点来设计这款产品：显示、声音、舒适性。我们要求显示效果非常清晰；声音悦耳，可以让使用者听出高音与低音的区别；最重要的是带着舒服，即使你一整天都带着它，也不会感到不适。</p>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_5_cn_bop.jpeg" alt="" class="index_img" style="margin-left: auto;margin-right: auto;">
 <div class="h_50"></div>
@@ -72,23 +74,23 @@
             </tr>
         </table>
     </div>
-    <div class="index_div2_1" style="display: none;" id="div2">
+    <div class="index_div2_1" style="display: none;height: 6rem;" id="div2">
         <p class="index_p2 p_t30">在声音方面，近耳式立体环绕音效，音质清晰且不打扰他人。镜腿两侧分别有一个扬声器，左右分离，立体声道。</p>
-        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_2.png" alt="" class="index_img2">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_2.jpeg" alt="" class="index_img2">
     </div>
-    <div class="index_div2_1" style="display: none;" id="div3">
+    <div class="index_div2_1" style="display: none;height: 5.5rem;" id="div3">
         <p class="index_p2 p_t40">轻影的尺寸做了男女通用的兼容设计，满足全球95%的头部尺寸。鼻托杆可以用手调整弯曲度，以适应鼻梁的不同。鼻托可以更换，根据每个人的不同，自由选择。</p>
-        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.png" alt="" class="index_img2">
-        <span class="video_play" style="position: absolute;bottom: 0.5rem;left: 2.2rem;" onclick="play(2)">观看影片</span>
+        <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.jpeg" alt="" class="index_img2">
+        <span class="video_play" style="position: absolute;bottom: 0.1rem;left: 2.7rem;" onclick="play(2)">观看影片</span>
     </div>
-    <div class="index_div2_1" style="display: none;" id="div5">
+    <div class="index_div2_1" style="display: none;height: 5rem;" id="div5">
         <p class="index_p2 p_t30">人们看视频和玩手游的时间通常都很久，因此我们需要一款轻盈的眼镜。轻影努力的降低重量，目前整机重量62.7g，仅相当3幅处方眼镜。</p>
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_5.jpeg" alt="" class="index_img2">
     </div>
-    <div class="index_div2_1" style="display: none;" id="div4">
+    <div class="index_div2_1" style="display: none;height: 6rem;" id="div4">
         <p class="index_p2 p_t40">7000mAh(typ)/h的高续航电池，酣畅观影7小时，打游戏4个小时，USB Type-C双面充电接口，支持在夜间盲插。主机支持PD快充协议，1-2小时即可充满电。</p>
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_4.png" alt="" class="index_img2">
-        <span class="video_play" style="position: absolute;bottom: 0.2rem;left: 2rem;" onclick="play(3)">观看影片</span>
+        <span class="video_play" style="position: absolute;bottom: 0.2rem;left: 2.6rem;" onclick="play(3)">观看影片</span>
     </div>
 </div>
 <div class="bg_f7">
@@ -146,7 +148,7 @@
         <img src="{{ URL::asset('/') }}image/mobile2.0/talk_1.png" alt="">
         <span>王先生</span>
     </div>
-    <p style="margin-left: 0.2rem;">这种策略和技术是AR未来的正确发展方向。增强现实技术确保我可以同时体验模拟现实和真实世界。作为一个技术爱好者，我很兴奋，终于有一款可以经常使用的眼镜了。 </p>
+    <p style="margin-left: 0.2rem;">这种策略和技术是AR未来的正确发展方向。增强现实技术确保我可以同时体验虚拟现实和真实世界。作为一个技术爱好者，我很兴奋，终于有一款可以经常使用的眼镜了。 </p>
 </div>
 <div class="talk ov">
     <p>比起那些华而不实的科技产品，轻影务实了很多，去掉了很多我们用不上的功能，因此价格也更便宜，物超所值。</p>
@@ -158,7 +160,7 @@
 <div class="talk ov">
     <div class="photo">
         <img src="{{ URL::asset('/') }}image/mobile2.0/talk_3.png" alt="">
-        <span>张小姐</span>
+        <span>Summer</span>
     </div>
     <p style="margin-left: 0.2rem;">无论是在家里还是在旅途中，轻影都给了我很棒的体验，真是棒极了。而且，外观设计上比同类产品更加出色。</p>
 </div>
@@ -229,7 +231,7 @@
     长度: 141mm<br />
     宽度: 55mm<br />
     高度: 14.48 mm<br />
-    重量: 150
+    重量: 150g
 </p>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_9_cn.jpeg" alt="" style="width: 65%;display: block;margin: 0.3rem auto 0 1.5rem;">
 <p class="index_p3 m_t40">数据线</p>

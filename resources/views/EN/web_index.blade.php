@@ -188,7 +188,7 @@
     <p class="index_p6">
         When we first designed "Light Video" glasses, we had face-to-face conversations with 128 people and exchanged our ideas with them to verify whether the product can solve their problems during the 106-hour-long conversation.
         After we finished the prototype glasses, we invited dozens of users to try on "Light Video" glasses. They gave positive responses that we are doing something special.</p>
-    <img src="{{ URL::asset('/') }}image/web/talk.png" alt="" style="margin-top: 80px;display: block;">
+    <img src="{{ URL::asset('/') }}image/web/talk.jpeg" alt="" style="margin-top: 80px;display: block;">
 
 </div>
 <div class="w_1200"><i class="line"></i></div>
@@ -308,7 +308,7 @@
             <ul class="index_ul1">
                 <li class="index_li1">Spk</li>
                 <li class="index_li2">Two 1506 speakers</li>
-                <li class="index_li2">Design of 0.7cc super large cavity</li>
+{{--                <li class="index_li2">Design of 0.7cc super large cavity</li>--}}
             </ul>
         </div>
         <div class="index_div5_1 left">
@@ -360,7 +360,7 @@
                 <p class="index_p10">CEO and founder</p>
                 <div class="ov" style="margin-top: 50px;">
                     <img src="{{ URL::asset('/') }}image/web/tx_2.png" alt="" class="left">
-                    <p class="left index_p8">Senior Software Engineer<br />Second prize of robot programming
+                    <p class="left index_p8">Senior Software Engineer<br />Second prize of<br/> robot programming
                         competition</p>
                 </div>
                 <p class="index_p9">Junfeng Guo</p>
@@ -376,7 +376,7 @@
                 <p class="index_p7">German Team</p>
                 <div class="ov" style="margin-top: 40px;">
                     <img src="{{ URL::asset('/') }}image/web/tx_4.png" alt="" class="left">
-                    <p class="left index_p8">TU Darmstadt<br />Oriental scholar, Thousand Talents Plan Expert<br />Distinguished Professor of Shanghai Institute of Technology<br />Finish Machining</p>
+                    <p class="left index_p8">TU Darmstadt<br />Oriental scholar <br />Thousand Talents Plan Expert<br />Finish Machining</p>
                 </div>
                 <p class="index_p9">Dr.-Ing. Martin lu</p>
                 <p class="index_p10">Copartner</p>

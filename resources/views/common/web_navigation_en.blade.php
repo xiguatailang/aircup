@@ -4,7 +4,7 @@
 
 <nav>
     <div class="w_1200 ov">
-        <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.png" alt="" class="nav_logo"></a>
+        <a href="{{ url('/') }}" class="left"><img src="{{ URL::asset('/') }}image/web/logo_h.jpeg" alt="" class="nav_logo"></a>
         <span class="right nav_a" onclick="lan()">中&nbsp;/&nbsp;EN</span>
         <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses" target="_blank" class="right nav_a">Pre-order</a>
         <a href="{{ url('/about') }}" class="right nav_a tg_about">About us</a>

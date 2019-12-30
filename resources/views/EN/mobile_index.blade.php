@@ -96,7 +96,7 @@
             to adapt to pad arms of different shapes. In addition, the nose pad can be freely replaced according to
             the different needs of each person.</p>
         <img src="{{ URL::asset('/') }}image/mobile2.0/index_6_3.jpeg" alt="" class="index_img2">
-        <span class="video_play" style="position: absolute;bottom: 0.5rem;left: 2.2rem;" onclick="play(2)">Watch The
+        <span class="video_play" style="position: absolute;bottom: 0.1rem;left: 2.2rem;" onclick="play(2)">Watch The
                 Video</span>
     </div>
     <div class="index_div2_1" style="display: none;" id="div5">
@@ -191,7 +191,7 @@
 <div class="talk ov">
     <div class="photo">
         <img src="{{ URL::asset('/') }}image/mobile2.0/talk_3.png" alt="">
-        <span>Ms.Zhang</span>
+        <span>Summer</span>
     </div>
     <p style="margin-left: 0.2rem;">Whether I’m at home or on the road, "Light Video" glasses can bring me great
         experience. It is really great. Moreover, in terms of appearance, they are also better than similar
@@ -280,8 +280,7 @@
 <i class="line"></i>
 <p class="index_p3 m_t40">Spk</p>
 <p class="index_p2 m_t10">
-    Two 1506 speakers<br />
-    Design of 0.7cc super large cavity
+    Two 1506 speakers
 </p>
 <i class="line"></i>
 <p class="index_p3 m_t40">SAudio formatpk</p>
@@ -337,11 +336,11 @@
         </div>
     </div>
     <p class="index_p3 m_t40">German Team</p>
-    <div class="index_div3 m_t20">
-        <img src="{{ URL::asset('/') }}image/mobile2.0/tx_4.png" alt="" class="tx">
+    <div class="index_div3 m_t20" style="height: 3.0rem;">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/tx_4.png" alt="" class="tx" style="margin-top: 0.8rem;">
         <div style="float: left;margin-left: 0.3rem;margin-top: 0.3rem;">
             <p class="index_p2" style="color: #333;">Dr.-Ing. Martin lu<br />Copartner</p>
-            <p class="index_p2">TU Darmstadt<br />Oriental scholar, Thousand Talents Plan Expert<br />Distinguished Professor of Shanghai Institute of Technology<br />Finish Machining</p>
+            <p class="index_p2">Oriental scholar, Thousand Talents<br /> Plan Expert,Distinguished Professor of <br />Shanghai Institute of Technology<br />Finish Machining</p>
         </div>
     </div>
     <div class="index_div3">
