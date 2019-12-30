@@ -126,7 +126,7 @@
     <p class="f_60">2017 Year in Review</p>
     <p class="f_30 m_t20">It is a year of transformation. <br/>From an AR box at the beginning of 2017 to a full function prototype at the end, <br/> we experienced the whole procedure of designing smart glasses. <br/>We know we still lag behind industrial leaders,<br/>but we are determined to persist with our choice and continue our road.</p>
 
-    <a href="{{ url('/story2018/en') }}" class="index_2_p3 mar">Learn more stories</a>
+    <a href="{{ url('/story2018') }}" class="index_2_p3 mar">Learn more stories</a>
 </div>
 
 @include('/common/mobile_footer_en')

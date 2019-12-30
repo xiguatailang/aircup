@@ -54,7 +54,7 @@
             and bass; Last but most important, it should be comfortable to wear. Even if you wear it all day, it
             won't make you feel uncomfortable.</p>
     </div>
-    <img src="{{ URL::asset('/') }}image/web/detail_index_2.png" alt="" style="display: block;margin: 100px auto 0 auto;">
+    <img src="{{ URL::asset('/') }}image/web/detail_index_2_cn.jpeg" alt="" style="display: block;margin: 100px auto 0 auto;">
 </div>
 <div class="index_div3">
     <p class="index_p5">Technical Characteristics</p>
@@ -142,6 +142,58 @@
                 video</span>
     </div>
 </div>
+
+
+<!-- 新加 -->
+<div class="index_div5 w_1200">
+    <p class="index_p5">Media Coverage </p>
+    <div class="icon">
+        <img src="{{ URL::asset('/') }}image/web//new_1.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_2.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_3.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center">
+        <img src="{{ URL::asset('/') }}image/web//new_4.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_5.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_6.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center">
+        <img src="{{ URL::asset('/') }}image/web//new_7.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_8.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_9.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center">
+        <img src="{{ URL::asset('/') }}image/web//new_10.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_11.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_12.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center;margin-top: 30px;">
+        <img src="{{ URL::asset('/') }}image/web//new_13.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_14.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_15.png" alt="">
+    </div>
+    <div class="icon">
+        <img src="{{ URL::asset('/') }}image/web//new_16.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_17.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_18.png" alt="">
+    </div>
+    <div class="icon">
+        <img src="{{ URL::asset('/') }}image/web//new_19.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_20.png" alt="" style="height: 59px;">
+        <img src="{{ URL::asset('/') }}image/web//new_21.png" alt="">
+    </div>
+</div>
+<div class="index_div5 w_1200">
+    <p class="index_p5">User Evaluation</p>
+    <p class="index_p6">
+        When we first designed "Light Video" glasses, we had face-to-face conversations with 128 people and exchanged our ideas with them to verify whether the product can solve their problems during the 106-hour-long conversation.
+        After we finished the prototype glasses, we invited dozens of users to try on "Light Video" glasses. They gave positive responses that we are doing something special.</p>
+    <img src="{{ URL::asset('/') }}image/web/talk.png" alt="" style="margin-top: 80px;display: block;">
+
+</div>
+<div class="w_1200"><i class="line"></i></div>
+
+
 <div class="index_div5 w_1200">
     <p class="index_p5">Technical Parameters</p>
     <div class="ov" style="margin-top: 80px;">
@@ -250,11 +302,12 @@
             <img src="{{ URL::asset('/') }}image/web/index_7.png" alt="" style="display: block;">
         </div>
     </div>
+    <i class="line"></i>
     <div class="ov" style="margin-top: 50px;">
         <div class="index_div5_1 left">
             <ul class="index_ul1">
                 <li class="index_li1">Spk</li>
-                <li class="index_li2">Two 0615 speakers</li>
+                <li class="index_li2">Two 1506 speakers</li>
                 <li class="index_li2">Design of 0.7cc super large cavity</li>
             </ul>
         </div>

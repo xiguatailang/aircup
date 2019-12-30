@@ -42,7 +42,7 @@
     Sound and Comfort. First, the display effect must be perfect; Second, the sound must be pleasing to the ear, to
     the extent that the users are able to recognize the difference between treble and bass; Last but most important,
     it should be comfortable to wear. Even if you wear it all day, it won't make you feel uncomfortable.</p>
-<img src="{{ URL::asset('/') }}image/mobile2.0/index_5.png" alt="" class="index_img" style="width: 90%;margin-left: auto;margin-right: auto;">
+<img src="{{ URL::asset('/') }}image/mobile2.0/index_5_cn_bop.jpeg" alt="" class="index_img" style="margin-left: auto;margin-right: auto;">
 <div class="h_50"></div>
 <p class="index_p1">Technical Characteristics</p>
 <div class="index_div1">
@@ -125,6 +125,92 @@
                 Video</span>
     </div>
 </div>
+
+<!-- 新加 -->
+<p class="index_p1">Media Coverage </p>
+<div class="icon" style="margin-top: 0.2rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_1.png" alt="" style="width: 1.69rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_2.png" alt="" style="width: 1.65rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_3.png" alt="" style="width: 2.13rem;">
+</div>
+<div class="icon" style="align-items:center">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_4.png" alt="" style="width: 1.8rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_5.png" alt="" style="width: 1.54rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_6.png" alt="" style="width: 1.96rem;">
+</div>
+<div class="icon" style="align-items:center">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_7.png" alt="" style="width: 2.68rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_8.png" alt="" style="width: 1.95rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_9.png" alt="" style="width: 1.54rem;">
+</div>
+<div class="icon" style="align-items:center">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_10.png" alt="" style="width: 2.53rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_11.png" alt="" style="width: 2.82rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_12.png" alt="" style="width: 1.13rem;">
+</div>
+<div class="icon" style="align-items:center;margin-top: 0.3rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_13.png" alt="" style="width: 2.57rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_14.png" alt="" style="width: 2.22rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_15.png" alt="" style="width: 1.33rem;">
+</div>
+<div class="icon">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_16.png" alt="" style="width: 2.99rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_17.png" alt="" style="width: 0.95rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_18.png" alt="" style="width: 2.24rem;">
+</div>
+<div class="icon">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_19.png" alt="" style="width: 2.88rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_20.png" alt="" style="width: 2.26rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_21.png" alt="" style="width: 0.89rem;">
+</div>
+<div class="h_50"></div>
+<p class="index_p1">User Evaluation</p>
+<p class="index_p2">When we first designed "Light Video" glasses, we had face-to-face conversations with 128 people
+    and exchanged our ideas with them to verify whether the product can solve their problems during the
+    106-hour-long conversation.
+    After we finished the prototype glasses, we invited dozens of users to try on "Light Video" glasses. They gave
+    positive responses that we are doing something special.</p>
+<div class="talk ov">
+    <div class="photo">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_1.png" alt="">
+        <span>Mr.Wang</span>
+    </div>
+    <p style="margin-left: 0.2rem;">This strategy and technology of "Light Video" glasses show the correct
+        development direction of AR technology in the future. With AR, I can experience both the simulated reality
+        and the real world. Therefore, as a technology enthusiast, I am very excited to finally have a pair of AR
+        glasses that I can often use. </p>
+</div>
+<div class="talk ov">
+    <p>Compared with other flashy technology products, "Light Video" glasses are very practical. The product has
+        removed a lot of functions that we don't need, and it is just fine with very reasonable price.</p>
+    <div class="photo" style="margin-left: 0.3rem;">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_2.png" alt="">
+        <span>Mr.Xu</span>
+    </div>
+</div>
+<div class="talk ov">
+    <div class="photo">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_3.png" alt="">
+        <span>Ms.Zhang</span>
+    </div>
+    <p style="margin-left: 0.2rem;">Whether I’m at home or on the road, "Light Video" glasses can bring me great
+        experience. It is really great. Moreover, in terms of appearance, they are also better than similar
+        products.</p>
+</div>
+<div class="talk ov">
+    <p>I watch videos every day, sometimes for 1 -3 hours. Especially during holidays, I watch for a longer time.
+        When the showed me "Light Video" product, I was amazed it. I was like, oh my God! If I had these glasses, my
+        hands would never feel tired any more when I’m watching videos. "</p>
+    <div class="photo" style="margin-left: 0.3rem;">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_4.png" alt="">
+        <span>Ms.Ma</span>
+    </div>
+</div>
+<div class="h_50"></div>
+<i class="line"></i>
+<!-- 新加 -->
+
+
 <p class="index_p1">Technical Parameters</p>
 <p class="index_p3 m_t40">The screen</p>
 <p class="index_p2 m_t10">0.39 inches (diagonal)<br />
@@ -194,7 +280,7 @@
 <i class="line"></i>
 <p class="index_p3 m_t40">Spk</p>
 <p class="index_p2 m_t10">
-    Two 0615 speakers<br />
+    Two 1506 speakers<br />
     Design of 0.7cc super large cavity
 </p>
 <i class="line"></i>

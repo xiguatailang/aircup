@@ -18,7 +18,7 @@
 @include('/common/mobile_navigation_cn')
 
 <!-- 上面头部代码直接复制替换原来的html -->
-<p class="index_p1" style="padding-top: 1.4rem;">轻影<sup>TM</sup> <br />最好的手机游戏伴侣</p>
+<p class="index_p1" style="padding-top: 1.4rem;">轻影<sup style="font-size: 0.2rem;color: #666666;">TM</sup> <br />最好的手机游戏伴侣</p>
 <span class="video_play" style="margin: 0.6rem auto 0 auto;" onclick="play(1)">观看影片</span>
 <a href="https://www.kickstarter.com/projects/aircup/light-video-a-pair-of-magic-ar-smart-glasses?ref=guanwang_cn" target="_blank" class="pre_a">预订购买</a>
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_1.png" alt="" class="index_img">
@@ -33,7 +33,7 @@
 <img src="{{ URL::asset('/') }}image/mobile2.0/index_4.png" alt="" class="index_img">
 <p class="index_p1">轻影<sup>TM</sup>专注于: <br />显示、声音、佩戴舒适</p>
 <p class="index_p2">我们耗费了3年时间设计和完善轻影，主要目标是创造一个令人难以置信的观影体验。我们一直认为轻影背后的技术应该突出观影体验，我们设计它就是为了这个目的。聚焦三个重点来设计这款产品：显示、声音、舒适性。我们要求显示效果非常清晰；声音悦耳，可以让使用者听出高音与低音的区别；最重要的是带着舒服，即使你一整天都带着它，也不会感到不适。</p>
-<img src="{{ URL::asset('/') }}image/mobile2.0/index_5_cn_bop.jpeg" alt="" class="index_img" style="width: 90%;margin-left: auto;margin-right: auto;">
+<img src="{{ URL::asset('/') }}image/mobile2.0/index_5_cn_bop.jpeg" alt="" class="index_img" style="margin-left: auto;margin-right: auto;">
 <div class="h_50"></div>
 <p class="index_p1">技术特点</p>
 <div class="index_div1">
@@ -99,6 +99,80 @@
         <span class="video_play" style="position: absolute;bottom: 1.6rem;left: 3.6rem;" onclick="play(4)">观看影片</span>
     </div>
 </div>
+
+
+<!-- 新加 -->
+<p class="index_p1">媒体报道</p>
+<div class="icon" style="margin-top: 0.2rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_1.png" alt="" style="width: 1.69rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_2.png" alt="" style="width: 1.65rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_3.png" alt="" style="width: 2.13rem;">
+</div>
+<div class="icon" style="align-items:center">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_4.png" alt="" style="width: 1.8rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_5.png" alt="" style="width: 1.54rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_6.png" alt="" style="width: 1.96rem;">
+</div>
+<div class="icon" style="align-items:center">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_7.png" alt="" style="width: 2.68rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_8.png" alt="" style="width: 1.95rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_9.png" alt="" style="width: 1.54rem;">
+</div>
+<div class="icon" style="align-items:center">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_10.png" alt="" style="width: 2.53rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_11.png" alt="" style="width: 2.82rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_12.png" alt="" style="width: 1.13rem;">
+</div>
+<div class="icon" style="align-items:center;margin-top: 0.3rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_13.png" alt="" style="width: 2.57rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_14.png" alt="" style="width: 2.22rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_15.png" alt="" style="width: 1.33rem;">
+</div>
+<div class="icon">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_16.png" alt="" style="width: 2.99rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_17.png" alt="" style="width: 0.95rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_18.png" alt="" style="width: 2.24rem;">
+</div>
+<div class="icon">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_19.png" alt="" style="width: 2.88rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_20.png" alt="" style="width: 2.26rem;">
+    <img src="{{ URL::asset('/') }}image/mobile2.0/new_21.png" alt="" style="width: 0.89rem;">
+</div>
+<div class="h_50"></div>
+<p class="index_p1">用户评价</p>
+<p class="index_p2">在设计轻影之初，我们曾与128人面对面的交谈，交换想法，验证这个产品能否解决用户问题。这种交流，累计时长达到106个小时。 当我们完成了样机之后，向数十位用户展示轻影。他们的反应非常积极，这是一个肯定的信号，表明我们正在做一些特别的事情。</p>
+<div class="talk ov">
+    <div class="photo">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_1.png" alt="">
+        <span>王先生</span>
+    </div>
+    <p style="margin-left: 0.2rem;">这种策略和技术是AR未来的正确发展方向。增强现实技术确保我可以同时体验模拟现实和真实世界。作为一个技术爱好者，我很兴奋，终于有一款可以经常使用的眼镜了。 </p>
+</div>
+<div class="talk ov">
+    <p>比起那些华而不实的科技产品，轻影务实了很多，去掉了很多我们用不上的功能，因此价格也更便宜，物超所值。</p>
+    <div class="photo" style="margin-left: 0.3rem;">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_2.png" alt="">
+        <span>许先生</span>
+    </div>
+</div>
+<div class="talk ov">
+    <div class="photo">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_3.png" alt="">
+        <span>张小姐</span>
+    </div>
+    <p style="margin-left: 0.2rem;">无论是在家里还是在旅途中，轻影都给了我很棒的体验，真是棒极了。而且，外观设计上比同类产品更加出色。</p>
+</div>
+<div class="talk ov">
+    <p>看视频是我每天必做的娱乐，每天约有1-3小时。在节假日期间，会看的更久。当他们向我展示轻影的时候，我被它的魔法惊呆了。天啊！有了轻影，看视频再也不会感到手累了。</p>
+    <div class="photo" style="margin-left: 0.3rem;">
+        <img src="{{ URL::asset('/') }}image/mobile2.0/talk_4.png" alt="">
+        <span>马小姐</span>
+    </div>
+</div>
+<div class="h_50"></div>
+<i class="line"></i>
+<!-- 新加 -->
+
 <p class="index_p1">技术参数</p>
 <p class="index_p3 m_t40">屏幕</p>
 <p class="index_p2 m_t10">0.39英寸(对角线)<br />
@@ -119,7 +193,7 @@
     支持 SRC 协议仲裁</p>
 <i class="line"></i>
 <p class="index_p3 m_t40">支持的PD快充协议</p>
-<p class="index_p2 m_t10">对外输出快充:<br />
+<p class="index_p2 m_t10">对外充电:<br />
     Support BC1.2 DCP (5V/500mA)<br /><br />
     对内输入快充:<br />
     Support PD3.0/PD2.0</p>
@@ -142,7 +216,7 @@
     5.125GHz ~ 5.845GHz (5.0 GHz ISM Band) Light video
 </p>
 <i class="line"></i>
-<p class="index_p3 m_t40">轻影结构参数</p>
+<p class="index_p3 m_t40">眼镜</p>
 <p class="index_p2 m_t10">
     长度: 157mm<br />
     宽度: 74.64mm<br />
@@ -169,8 +243,7 @@
 <i class="line"></i>
 <p class="index_p3 m_t40">扬声器</p>
 <p class="index_p2 m_t10">
-    两枚0615扬声器<br />
-    0.7cc 超大音腔设计
+    两枚1506扬声器
 </p>
 <i class="line"></i>
 <p class="index_p3 m_t40">音频格式</p>

@@ -16,7 +16,8 @@
 @include('/common/web_navigation_cn')
 
 <div class="w_1200">
-    <p class="index_p1">轻影<sup>TM</sup></p>
+{{--    <p class="index_p1">轻影<sup style="font-size: 40px;color: #666666;">TM</sup></p>--}}
+    <p class="index_p1"><img src="{{ URL::asset('/') }}image/web/titile_tm.jpeg" alt=""></p>
     <p class="index_p2">最好的手机游戏伴侣</p>
     <p class="index_p3">AR眼镜给你更极致的游戏体验</p>
     <div class="index_div1 ov">
@@ -44,7 +45,7 @@
 </script>
 <div class="index_div2">
     <div class="w_1200">
-        <p class="index_p5">轻影<sup>TM</sup>专注于:<br />显示、声音、佩戴舒适 </p>
+        <p class="index_p5">轻影专注于:<br />显示、声音、佩戴舒适 </p>
         <p class="index_p6">我们耗费了3年时间设计和完善轻影，主要目标是创造一个令人难以置信的观影体验。我们一直认为轻影背后的技术应该突出观影体验，我们设计它就是为了这个目的。聚焦三个重点来设计这款产品：显示、声音、舒适性。我们要求显示效果非常清晰；声音悦耳，可以让使用者听出高音与低音的区别；最重要的是带着舒服，即使你一整天都带着它，也不会感到不适。</p>
     </div>
     <img src="{{ URL::asset('/') }}image/web/detail_index_2_cn.jpeg" alt="" style="display: block;margin: 100px auto 0 auto;">
@@ -94,7 +95,7 @@
     <div class="index_div4_3 none">
         <div class="w_1200">
             <p class="index_p6" style="padding-top: 60px;">轻影的尺寸做了男女通用的兼容设计，满足全球95%的头部尺寸。鼻托杆可以用手调整弯曲度，以适应鼻梁的不同。鼻托可以更换，根据每个人的不同，自由选择。</p>
-            <span class="video_play" style="margin-top: 460px;margin-left: 370px;" onclick="play(2)">Watch The
+            <span class="video_play" style="margin-top: 620px;margin-left: 370px;" onclick="play(2)">Watch The
                     video</span>
         </div>
     </div>
@@ -118,6 +119,58 @@
         <span class="video_play" style="position: absolute;bottom: 210px;left: 550px;" onclick="play(4)">观看影片</span>
     </div>
 </div>
+
+
+<!-- 新加 -->
+<div class="index_div5 w_1200">
+    <p class="index_p5">媒体报道 </p>
+    <div class="icon">
+        <img src="{{ URL::asset('/') }}image/web//new_1.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_2.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_3.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center">
+        <img src="{{ URL::asset('/') }}image/web//new_4.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_5.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_6.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center">
+        <img src="{{ URL::asset('/') }}image/web//new_7.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_8.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_9.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center">
+        <img src="{{ URL::asset('/') }}image/web//new_10.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_11.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_12.png" alt="">
+    </div>
+    <div class="icon" style="align-items:center;margin-top: 30px;">
+        <img src="{{ URL::asset('/') }}image/web//new_13.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_14.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_15.png" alt="">
+    </div>
+    <div class="icon">
+        <img src="{{ URL::asset('/') }}image/web//new_16.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_17.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_18.png" alt="">
+    </div>
+    <div class="icon">
+        <img src="{{ URL::asset('/') }}image/web//new_19.png" alt="">
+        <img src="{{ URL::asset('/') }}image/web//new_20.png" alt="" style="height: 59px;">
+        <img src="{{ URL::asset('/') }}image/web//new_21.png" alt="">
+    </div>
+</div>
+<div class="index_div5 w_1200">
+    <p class="index_p5">用户评价</p>
+    <p class="index_p6">
+        在设计轻影之初，我们曾与128人面对面的交谈，交换想法，验证这个产品能否解决用户问题。这种交流，累计时长达到106个小时。
+        当我们完成了样机之后，向数十位用户展示轻影。他们的反应非常积极，这是一个肯定的信号，表明我们正在做一些特别的事情。</p>
+    <img src="{{ URL::asset('/') }}image/web/talk_cn.jpeg" alt="" style="margin-top: 80px;display: block;">
+
+</div>
+<div class="w_1200"><i class="line"></i></div>
+
+
 <div class="index_div5 w_1200">
     <p class="index_p5">技术参数</p>
     <div class="ov" style="margin-top: 80px;">
@@ -155,7 +208,7 @@
         <div class="index_div5_1 left">
             <ul class="index_ul1">
                 <li class="index_li1">支持的PD快充协议</li>
-                <li class="index_li2">对外输出快充:</li>
+                <li class="index_li2">对外充电:</li>
                 <li class="index_li2">Support BC1.2 DCP (5V/500mA)</li>
                 <li class="index_li2" style="margin-top: 40px;">对内输入快充:</li>
                 <li class="index_li2">Support PD3.0/PD2.0</li>
@@ -187,7 +240,7 @@
     <div class="ov" style="margin-top: 80px;">
         <div class="index_div5_1 left" style="width: 45%;">
             <ul class="index_ul1">
-                <li class="index_li1">轻影结构参数</li>
+                <li class="index_li1">眼镜</li>
                 <li class="index_li2">长度: 157mm</li>
                 <li class="index_li2">宽度: 74.64mm</li>
                 <li class="index_li2">高度: 40.94mm</li>
@@ -226,12 +279,12 @@
             <img src="{{ URL::asset('/') }}image/web/index_7.png" alt="" style="display: block;">
         </div>
     </div>
+    <i class="line"></i>
     <div class="ov" style="margin-top: 50px;">
         <div class="index_div5_1 left">
             <ul class="index_ul1">
                 <li class="index_li1">扬声器</li>
-                <li class="index_li2">两枚0615扬声器</li>
-                <li class="index_li2">0.7cc 超大音腔设计</li>
+                <li class="index_li2">两枚1506扬声器</li>
             </ul>
         </div>
         <div class="index_div5_1 left">

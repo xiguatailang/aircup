@@ -64,3 +64,9 @@ textarea {  -webkit-appearance: none;}
 .t2em{display: block;padding-left: 20px;}
 .privacy_p3{height: 0.66rem;line-height: 0.66rem;color: #fff;font-weight: bold;background: #666666;text-align: center;font-size: 0.26rem;}
 
+.icon{display: flex;justify-content:space-between;margin-top: 0.6rem;align-items:flex-end;padding: 0 0.3rem;}
+.icon img{width: 100%;}
+.talk{display: flex;padding: 0.5rem 0.3rem;margin-top: 0.5rem;box-shadow:0 1px  10px #999;align-items:center;background: #f7f7f7;}
+.photo img{width: 1.6rem;display: block;}
+.photo span{font-size: 0.24rem;color: #666;text-align: center;display: block;margin-top: 0.2rem;}
+.talk p{font-size: 0.24rem;color: #666;line-height: 0.42rem;}

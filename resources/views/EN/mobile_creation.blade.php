@@ -40,12 +40,12 @@
 <div class="index_2 index_2_1 mar">
     <p class="index_2_p1">In 2017, I began the journey alone.</p>
     <p class="index_2_p2">Those who doubt me predict my end with their limited experience.<br/>But my persistence comes from the enjoyment of creation.<br/>I enjoy it every day.</p>
-    <a href="{{ url('/story2017/en') }}" class="index_2_p3 mar">To know more stories</a>
+    <a href="{{ url('/story2017') }}" class="index_2_p3 mar">To know more stories</a>
 </div>
 <div class="index_2 index_2_2 mar">
     <p class="index_2_p1">In 2018, I march forward in exploration.</p>
     <p class="index_2_p2">I always believe the future is better.<br/>Even though it is no ideal,<br/>we should still keep trying.</p>
-    <a href="{{ url('/story2018/en') }}" class="index_2_p3 mar">To know more stories</a>
+    <a href="{{ url('/story2018') }}" class="index_2_p3 mar">To know more stories</a>
 </div>
 <div class="index_2 index_2_3 mar">
     <p class="index_2_p1 index_2_p4">In 2019,</p>
